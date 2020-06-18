@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AVR-KiCAD-Lib-ICs:MAX3073EESD+ U?
+L AVR-KiCAD-Lib-ICs:MAX3073EESD+ U6
 U 1 1 5EFD4AB7
 P 4300 2150
-F 0 "U?" H 4350 2250 50  0000 C CNN
+F 0 "U6" H 4350 2250 50  0000 C CNN
 F 1 "MAX3073EESD+" H 4350 2350 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-ICs:MAX3073EESD&plus_" H 4100 2150 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf" H 4200 2250 50  0001 C CNN
@@ -50,10 +50,10 @@ F 28 "*" H 6700 4750 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-ICs:MAX3073EESD+ U?
+L AVR-KiCAD-Lib-ICs:MAX3073EESD+ U7
 U 1 1 5EFD5614
 P 4300 4500
-F 0 "U?" H 4550 4715 50  0000 C CNN
+F 0 "U7" H 4550 4715 50  0000 C CNN
 F 1 "MAX3073EESD+" H 4350 4700 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-ICs:MAX3073EESD&plus_" H 4100 4500 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf" H 4200 4600 50  0001 C CNN
@@ -86,10 +86,10 @@ F 28 "*" H 6700 7100 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T?
+L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T17
 U 1 1 5EFFC7BA
 P 9050 2300
-F 0 "T?" H 9250 2465 50  0000 C CNN
+F 0 "T17" H 9250 2465 50  0000 C CNN
 F 1 "RJHSE-5381" H 9250 2374 50  0000 C CNN
 F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8850 2300 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8950 2400 50  0001 C CNN
@@ -122,10 +122,10 @@ F 28 "*" H 11450 4900 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T?
+L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T18
 U 1 1 5EFFF009
 P 9050 4650
-F 0 "T?" H 9250 4815 50  0000 C CNN
+F 0 "T18" H 9250 4815 50  0000 C CNN
 F 1 "RJHSE-5381" H 9250 4724 50  0000 C CNN
 F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8850 4650 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8950 4750 50  0001 C CNN
@@ -176,10 +176,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 3000 7750 3000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR044
 U 1 1 5F017F66
 P 5600 2200
-F 0 "#PWR?" H 5600 1950 50  0001 C CNN
+F 0 "#PWR044" H 5600 1950 50  0001 C CNN
 F 1 "GND" H 5605 2027 50  0000 C CNN
 F 2 "" H 5600 2200 50  0001 C CNN
 F 3 "" H 5600 2200 50  0001 C CNN
@@ -192,10 +192,10 @@ Connection ~ 5600 2200
 Wire Wire Line
 	5600 2200 5850 2200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR042
 U 1 1 5F01B1E0
 P 4100 3450
-F 0 "#PWR?" H 4100 3200 50  0001 C CNN
+F 0 "#PWR042" H 4100 3200 50  0001 C CNN
 F 1 "GND" H 4105 3277 50  0000 C CNN
 F 2 "" H 4100 3450 50  0001 C CNN
 F 3 "" H 4100 3450 50  0001 C CNN
@@ -208,10 +208,10 @@ Connection ~ 4100 3300
 Wire Wire Line
 	4100 3300 4100 3450
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R10
 U 1 1 5F01CC10
 P 3700 2000
-F 0 "R?" V 3654 2088 50  0000 L CNN
+F 0 "R10" V 3654 2088 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 3700 2087 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 3700 2000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3700 2000 50  0001 C CNN
@@ -244,10 +244,10 @@ F 28 "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Res
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR040
 U 1 1 5F01FD5B
 P 3700 1750
-F 0 "#PWR?" H 3700 1600 50  0001 C CNN
+F 0 "#PWR040" H 3700 1600 50  0001 C CNN
 F 1 "+3V3" H 3715 1923 50  0000 C CNN
 F 2 "" H 3700 1750 50  0001 C CNN
 F 3 "" H 3700 1750 50  0001 C CNN
@@ -296,10 +296,10 @@ Wire Wire Line
 Wire Wire Line
 	5450 5350 7750 5350
 $Comp
-L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C?
+L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C30
 U 1 1 5F03829B
 P 5400 4300
-F 0 "C?" V 5379 4428 50  0000 L CNN
+F 0 "C30" V 5379 4428 50  0000 L CNN
 F 1 "C0402C104K9PACTU" H 5450 4500 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5200 4300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 5300 4400 50  0001 C CNN
@@ -332,10 +332,10 @@ F 28 "*" H 7800 6900 50  0001 C CNN "Management_ID"
 	0    1    1    0   
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Capacitors:GRM188R61A106KE69J C?
+L AVR-KiCAD-Lib-Capacitors:GRM188R61A106KE69J C32
 U 1 1 5F0382BA
 P 5850 4300
-F 0 "C?" V 5829 4428 50  0000 L CNN
+F 0 "C32" V 5829 4428 50  0000 L CNN
 F 1 "GRM188R61A106KE69J" H 5900 4500 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Capacitors:C0603" H 5650 4300 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf" H 5750 4400 50  0001 C CNN
@@ -368,10 +368,10 @@ F 28 "*" H 8250 6900 50  0001 C CNN "Management_ID"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR045
 U 1 1 5F0382C0
 P 5600 4550
-F 0 "#PWR?" H 5600 4300 50  0001 C CNN
+F 0 "#PWR045" H 5600 4300 50  0001 C CNN
 F 1 "GND" H 5605 4377 50  0000 C CNN
 F 2 "" H 5600 4550 50  0001 C CNN
 F 3 "" H 5600 4550 50  0001 C CNN
@@ -391,10 +391,10 @@ Connection ~ 5600 4550
 Wire Wire Line
 	5600 4550 5850 4550
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR047
 U 1 1 5F0382CD
 P 5850 4100
-F 0 "#PWR?" H 5850 3950 50  0001 C CNN
+F 0 "#PWR047" H 5850 3950 50  0001 C CNN
 F 1 "+3V3" H 5865 4273 50  0000 C CNN
 F 2 "" H 5850 4100 50  0001 C CNN
 F 3 "" H 5850 4100 50  0001 C CNN
@@ -403,10 +403,10 @@ F 3 "" H 5850 4100 50  0001 C CNN
 $EndComp
 Connection ~ 5850 4100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR043
 U 1 1 5F0382D4
 P 4100 5800
-F 0 "#PWR?" H 4100 5550 50  0001 C CNN
+F 0 "#PWR043" H 4100 5550 50  0001 C CNN
 F 1 "GND" H 4105 5627 50  0000 C CNN
 F 2 "" H 4100 5800 50  0001 C CNN
 F 3 "" H 4100 5800 50  0001 C CNN
@@ -419,10 +419,10 @@ Connection ~ 4100 5650
 Wire Wire Line
 	4100 5650 4100 5800
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-074K7L R11
 U 1 1 5F0382F6
 P 3700 4350
-F 0 "R?" V 3654 4438 50  0000 L CNN
+F 0 "R11" V 3654 4438 50  0000 L CNN
 F 1 "RC0402FR-074K7L" V 3700 4437 50  0001 L CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 3700 4350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3700 4350 50  0001 C CNN
@@ -455,10 +455,10 @@ F 28 "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Res
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR041
 U 1 1 5F0382FC
 P 3700 4100
-F 0 "#PWR?" H 3700 3950 50  0001 C CNN
+F 0 "#PWR041" H 3700 3950 50  0001 C CNN
 F 1 "+3V3" H 3715 4273 50  0000 C CNN
 F 2 "" H 3700 4100 50  0001 C CNN
 F 3 "" H 3700 4100 50  0001 C CNN
@@ -489,10 +489,10 @@ Wire Wire Line
 Text Label 2800 4550 0    50   ~ 0
 RS485_UART_EN2
 $Comp
-L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R?
+L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R12
 U 1 1 5F099D8E
 P 6800 1550
-F 0 "R?" H 6800 1775 50  0000 C CNN
+F 0 "R12" H 6800 1775 50  0000 C CNN
 F 1 "AC0402FR-07120RL" H 6800 1775 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6800 1550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 6800 1550 50  0001 C CNN
@@ -525,10 +525,10 @@ F 28 "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AE
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW?
+L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW2
 U 1 1 5F09CD45
 P 6700 1900
-F 0 "SW?" H 6928 1871 50  0000 L CNN
+F 0 "SW2" H 6928 1871 50  0000 L CNN
 F 1 "CVS-02TB" H 6928 1780 50  0000 L CNN
 F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 6700 2400 50  0001 C CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 6700 1900 50  0001 C CNN
@@ -591,10 +591,10 @@ Connection ~ 6850 2600
 Wire Wire Line
 	6850 2600 5000 2600
 $Comp
-L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R?
+L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R14
 U 1 1 5F0B259F
 P 7700 1550
-F 0 "R?" H 7700 1775 50  0000 C CNN
+F 0 "R14" H 7700 1775 50  0000 C CNN
 F 1 "AC0402FR-07120RL" H 7700 1775 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 7700 1550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 7700 1550 50  0001 C CNN
@@ -627,10 +627,10 @@ F 28 "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AE
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW?
+L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW4
 U 1 1 5F0B25BE
 P 7600 1900
-F 0 "SW?" H 7828 1871 50  0000 L CNN
+F 0 "SW4" H 7828 1871 50  0000 L CNN
 F 1 "CVS-02TB" H 7828 1780 50  0000 L CNN
 F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 7600 2400 50  0001 C CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 7600 1900 50  0001 C CNN
@@ -681,10 +681,10 @@ Connection ~ 7750 3000
 Wire Wire Line
 	7750 3000 8550 3000
 $Comp
-L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R?
+L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R13
 U 1 1 5F0B9FE5
 P 6800 3600
-F 0 "R?" H 6800 3825 50  0000 C CNN
+F 0 "R13" H 6800 3825 50  0000 C CNN
 F 1 "AC0402FR-07120RL" H 6800 3825 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 6800 3600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 6800 3600 50  0001 C CNN
@@ -717,10 +717,10 @@ F 28 "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AE
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW?
+L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW3
 U 1 1 5F0BA004
 P 6700 3950
-F 0 "SW?" H 6928 3921 50  0000 L CNN
+F 0 "SW3" H 6928 3921 50  0000 L CNN
 F 1 "CVS-02TB" H 6928 3830 50  0000 L CNN
 F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 6700 4450 50  0001 C CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 6700 3950 50  0001 C CNN
@@ -761,10 +761,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 3700 7000 3600
 $Comp
-L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R?
+L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R15
 U 1 1 5F0BA027
 P 7700 3600
-F 0 "R?" H 7700 3825 50  0000 C CNN
+F 0 "R15" H 7700 3825 50  0000 C CNN
 F 1 "AC0402FR-07120RL" H 7700 3825 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 7700 3600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf" H 7700 3600 50  0001 C CNN
@@ -797,10 +797,10 @@ F 28 "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AE
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW?
+L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW5
 U 1 1 5F0BA046
 P 7600 3950
-F 0 "SW?" H 7828 3921 50  0000 L CNN
+F 0 "SW5" H 7828 3921 50  0000 L CNN
 F 1 "CVS-02TB" H 7828 3830 50  0000 L CNN
 F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 7600 4450 50  0001 C CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 7600 3950 50  0001 C CNN
@@ -861,10 +861,10 @@ Connection ~ 7750 5350
 Wire Wire Line
 	7750 5350 8550 5350
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R16
 U 1 1 5F0C6C33
 P 9650 2500
-F 0 "R?" H 9500 2450 50  0000 C CNN
+F 0 "R16" H 9500 2450 50  0000 C CNN
 F 1 "RC0402FR-071KL" H 9650 2725 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 2500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 2500 50  0001 C CNN
@@ -897,10 +897,10 @@ F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resist
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R17
 U 1 1 5F0C79C2
 P 9650 3100
-F 0 "R?" H 9500 3050 50  0000 C CNN
+F 0 "R17" H 9500 3050 50  0000 C CNN
 F 1 "RC0402FR-071KL" H 9650 3325 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 3100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 3100 50  0001 C CNN
@@ -933,10 +933,10 @@ F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resist
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R18
 U 1 1 5F0CC945
 P 9650 4850
-F 0 "R?" H 9500 4800 50  0000 C CNN
+F 0 "R18" H 9500 4800 50  0000 C CNN
 F 1 "RC0402FR-071KL" H 9650 5075 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 4850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 4850 50  0001 C CNN
@@ -969,10 +969,10 @@ F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resist
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R?
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R19
 U 1 1 5F0CC964
 P 9650 5450
-F 0 "R?" H 9500 5400 50  0000 C CNN
+F 0 "R19" H 9500 5400 50  0000 C CNN
 F 1 "RC0402FR-071KL" H 9650 5675 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 5450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 5450 50  0001 C CNN
@@ -1022,10 +1022,10 @@ Wire Wire Line
 	9300 3000 9300 3350
 Connection ~ 9300 3000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR048
 U 1 1 5F0DA94B
 P 9300 3350
-F 0 "#PWR?" H 9300 3100 50  0001 C CNN
+F 0 "#PWR048" H 9300 3100 50  0001 C CNN
 F 1 "GND" H 9305 3177 50  0000 C CNN
 F 2 "" H 9300 3350 50  0001 C CNN
 F 3 "" H 9300 3350 50  0001 C CNN
@@ -1042,10 +1042,10 @@ Wire Wire Line
 	9350 5350 9350 5750
 Connection ~ 9350 5350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR049
 U 1 1 5F0DF7B7
 P 9350 5750
-F 0 "#PWR?" H 9350 5500 50  0001 C CNN
+F 0 "#PWR049" H 9350 5500 50  0001 C CNN
 F 1 "GND" H 9355 5577 50  0000 C CNN
 F 2 "" H 9350 5750 50  0001 C CNN
 F 3 "" H 9350 5750 50  0001 C CNN
@@ -1070,10 +1070,10 @@ Text HLabel 10600 3100 2    50   Input ~ 0
 RS485_1_LED2
 Connection ~ 5850 1750
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR046
 U 1 1 5F01A2C3
 P 5850 1750
-F 0 "#PWR?" H 5850 1600 50  0001 C CNN
+F 0 "#PWR046" H 5850 1600 50  0001 C CNN
 F 1 "+3V3" H 5865 1923 50  0000 C CNN
 F 2 "" H 5850 1750 50  0001 C CNN
 F 3 "" H 5850 1750 50  0001 C CNN
@@ -1088,10 +1088,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 1750 5400 1750
 $Comp
-L AVR-KiCAD-Lib-Capacitors:GRM188R61A106KE69J C?
+L AVR-KiCAD-Lib-Capacitors:GRM188R61A106KE69J C31
 U 1 1 5F015F3F
 P 5850 1950
-F 0 "C?" V 5829 2078 50  0000 L CNN
+F 0 "C31" V 5829 2078 50  0000 L CNN
 F 1 "GRM188R61A106KE69J" H 5900 2150 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Capacitors:C0603" H 5650 1950 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61A106KE69-01.pdf" H 5750 2050 50  0001 C CNN
@@ -1124,10 +1124,10 @@ F 28 "*" H 8250 4550 50  0001 C CNN "Management_ID"
 	0    1    1    0   
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C?
+L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C29
 U 1 1 5F01065A
 P 5400 1950
-F 0 "C?" V 5379 2078 50  0000 L CNN
+F 0 "C29" V 5379 2078 50  0000 L CNN
 F 1 "C0402C104K9PACTU" H 5450 2150 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 5200 1950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 5300 2050 50  0001 C CNN

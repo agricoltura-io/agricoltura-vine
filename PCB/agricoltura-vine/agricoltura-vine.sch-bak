@@ -109,4 +109,6 @@ Wire Wire Line
 	3500 2550 4700 2550
 Wire Wire Line
 	4700 2650 3500 2650
+Text Notes 4250 1350 0    200  ~ 40
+Agricoltura Vine 0.1a
 $EndSCHEMATC
