@@ -600,4 +600,244 @@ F 3 "" H 6800 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6800 5550
+$Comp
+L AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T T?
+U 1 1 5F0EF8CA
+P 7650 2800
+F 0 "T?" H 7700 950 50  0000 C CNN
+F 1 "TSW-108-07-G-T" H 7900 2850 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T" H 7450 2800 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 7550 2900 50  0001 C CNN
+F 4 "2.51000" H 7750 3050 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.39350" H 7850 3150 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 7950 3250 50  0001 C CNN "Cost QTY: 2500"
+F 7 "1.23557" H 8050 3350 50  0001 C CNN "Cost QTY: 5000"
+F 8 "1.20770" H 8150 3450 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Samtec Inc." H 8250 3550 50  0001 C CNN "MFR"
+F 10 "TSW-108-07-G-T" H 8350 3650 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 8450 3750 50  0001 C CNN "Vendor"
+F 12 "SAM10855-ND" H 8550 3850 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 8650 3950 50  0001 C CNN "Designer"
+F 14 "10.92mm" H 8750 4050 50  0001 C CNN "Height"
+F 15 "6/18/2020" H 9850 5150 50  0001 C CNN "Date Created"
+F 16 "6/18/2020" H 8850 4150 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 8950 4250 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 9050 4350 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 9150 4450 50  0001 C CNN "Mounting"
+F 20 "24" H 9250 4550 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 9350 4650 50  0001 C CNN "Status"
+F 22 "*" H 9450 4750 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 9550 4850 50  0001 C CNN "Type"
+F 24 "*" H 9650 4950 50  0001 C CNN "Voltage"
+F 25 "*" H 9750 5100 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 24 position 0.100\" (2.54mm)" H 10150 5500 50  0001 C CNN "Description"
+F 27 "3X08" H 9950 5300 50  0001 C CNN "_Value_"
+F 28 "*" H 10050 5400 50  0001 C CNN "Management_ID"
+	1    7650 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T T?
+U 1 1 5F0F4F0C
+P 7650 5350
+F 0 "T?" H 7700 3550 50  0000 C CNN
+F 1 "TSW-108-07-G-T" H 7900 5400 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:TSW-108-07-G-T" H 7450 5350 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 7550 5450 50  0001 C CNN
+F 4 "2.51000" H 7750 5600 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.39350" H 7850 5700 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 7950 5800 50  0001 C CNN "Cost QTY: 2500"
+F 7 "1.23557" H 8050 5900 50  0001 C CNN "Cost QTY: 5000"
+F 8 "1.20770" H 8150 6000 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Samtec Inc." H 8250 6100 50  0001 C CNN "MFR"
+F 10 "TSW-108-07-G-T" H 8350 6200 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 8450 6300 50  0001 C CNN "Vendor"
+F 12 "SAM10855-ND" H 8550 6400 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 8650 6500 50  0001 C CNN "Designer"
+F 14 "10.92mm" H 8750 6600 50  0001 C CNN "Height"
+F 15 "6/18/2020" H 9850 7700 50  0001 C CNN "Date Created"
+F 16 "6/18/2020" H 8850 6700 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 8950 6800 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 9050 6900 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 9150 7000 50  0001 C CNN "Mounting"
+F 20 "24" H 9250 7100 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 9350 7200 50  0001 C CNN "Status"
+F 22 "*" H 9450 7300 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 9550 7400 50  0001 C CNN "Type"
+F 24 "*" H 9650 7500 50  0001 C CNN "Voltage"
+F 25 "*" H 9750 7650 50  0001 C CNN "Package"
+F 26 "Connector Header Through Hole 24 position 0.100\" (2.54mm)" H 10150 8050 50  0001 C CNN "Description"
+F 27 "3X08" H 9950 7850 50  0001 C CNN "_Value_"
+F 28 "*" H 10050 7950 50  0001 C CNN "Management_ID"
+	1    7650 5350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6200 4550 7450 4550
+Wire Wire Line
+	7450 4650 6200 4650
+Wire Wire Line
+	6200 4750 7450 4750
+Wire Wire Line
+	7450 4850 6200 4850
+Wire Wire Line
+	7450 5050 6200 5050
+Wire Wire Line
+	6200 4950 7450 4950
+Wire Wire Line
+	6200 5150 7450 5150
+Wire Wire Line
+	6200 5250 7450 5250
+Wire Wire Line
+	6200 2000 7450 2000
+Wire Wire Line
+	7450 2100 6200 2100
+Wire Wire Line
+	6200 2200 7450 2200
+Wire Wire Line
+	7450 2300 6200 2300
+Wire Wire Line
+	7450 2500 6200 2500
+Wire Wire Line
+	6200 2400 7450 2400
+Wire Wire Line
+	6200 2600 7450 2600
+Wire Wire Line
+	6200 2700 7450 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5F0FCCF6
+P 8350 2950
+F 0 "#PWR?" H 8350 2700 50  0001 C CNN
+F 1 "GND" H 8355 2777 50  0000 C CNN
+F 2 "" H 8350 2950 50  0001 C CNN
+F 3 "" H 8350 2950 50  0001 C CNN
+	1    8350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0FD1DB
+P 8350 5650
+F 0 "#PWR?" H 8350 5400 50  0001 C CNN
+F 1 "GND" H 8355 5477 50  0000 C CNN
+F 2 "" H 8350 5650 50  0001 C CNN
+F 3 "" H 8350 5650 50  0001 C CNN
+	1    8350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4550 8350 4650
+Connection ~ 8350 4650
+Wire Wire Line
+	8350 4650 8350 4750
+Connection ~ 8350 4750
+Wire Wire Line
+	8350 4750 8350 4850
+Connection ~ 8350 4850
+Wire Wire Line
+	8350 4850 8350 4950
+Connection ~ 8350 4950
+Wire Wire Line
+	8350 4950 8350 5050
+Connection ~ 8350 5050
+Wire Wire Line
+	8350 5050 8350 5150
+Connection ~ 8350 5150
+Wire Wire Line
+	8350 5150 8350 5250
+Connection ~ 8350 5250
+Wire Wire Line
+	8350 5250 8350 5650
+Wire Wire Line
+	8350 2950 8350 2700
+Connection ~ 8350 2100
+Wire Wire Line
+	8350 2100 8350 2000
+Connection ~ 8350 2200
+Wire Wire Line
+	8350 2200 8350 2100
+Connection ~ 8350 2300
+Wire Wire Line
+	8350 2300 8350 2200
+Connection ~ 8350 2400
+Wire Wire Line
+	8350 2400 8350 2300
+Connection ~ 8350 2500
+Wire Wire Line
+	8350 2500 8350 2400
+Connection ~ 8350 2600
+Wire Wire Line
+	8350 2600 8350 2500
+Connection ~ 8350 2700
+Wire Wire Line
+	8350 2700 8350 2600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F0FF4C1
+P 8350 850
+F 0 "#PWR?" H 8350 700 50  0001 C CNN
+F 1 "+3V3" H 8365 1023 50  0000 C CNN
+F 2 "" H 8350 850 50  0001 C CNN
+F 3 "" H 8350 850 50  0001 C CNN
+	1    8350 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 850  8350 1100
+Connection ~ 8350 1100
+Wire Wire Line
+	8350 1100 8350 1200
+Connection ~ 8350 1200
+Wire Wire Line
+	8350 1200 8350 1300
+Connection ~ 8350 1300
+Wire Wire Line
+	8350 1300 8350 1400
+Connection ~ 8350 1400
+Wire Wire Line
+	8350 1400 8350 1500
+Connection ~ 8350 1500
+Wire Wire Line
+	8350 1500 8350 1600
+Connection ~ 8350 1600
+Wire Wire Line
+	8350 1600 8350 1700
+Connection ~ 8350 1700
+Wire Wire Line
+	8350 1700 8350 1800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F101EF5
+P 8350 3400
+F 0 "#PWR?" H 8350 3250 50  0001 C CNN
+F 1 "+3V3" H 8365 3573 50  0000 C CNN
+F 2 "" H 8350 3400 50  0001 C CNN
+F 3 "" H 8350 3400 50  0001 C CNN
+	1    8350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3400 8350 3650
+Connection ~ 8350 3650
+Wire Wire Line
+	8350 3650 8350 3750
+Connection ~ 8350 3750
+Wire Wire Line
+	8350 3750 8350 3850
+Connection ~ 8350 3850
+Wire Wire Line
+	8350 3850 8350 3950
+Connection ~ 8350 3950
+Wire Wire Line
+	8350 3950 8350 4050
+Connection ~ 8350 4050
+Wire Wire Line
+	8350 4050 8350 4150
+Connection ~ 8350 4150
+Wire Wire Line
+	8350 4150 8350 4250
+Connection ~ 8350 4250
+Wire Wire Line
+	8350 4250 8350 4350
 $EndSCHEMATC
