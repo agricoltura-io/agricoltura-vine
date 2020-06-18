@@ -1424,38 +1424,36 @@ Connection ~ 8400 3700
 Wire Wire Line
 	8400 3700 8250 3700
 Connection ~ 7550 4300
-Text HLabel 1350 1550 0    50   Input ~ 0
+Text HLabel 11000 1550 0    50   Input ~ 0
 UART_SENSE1_TX
-Text HLabel 1350 1650 0    50   Input ~ 0
+Text HLabel 11000 1650 0    50   Input ~ 0
 UART_SENSE1_RX
-Text HLabel 1350 3850 0    50   Input ~ 0
+Text HLabel 11000 3850 0    50   Input ~ 0
 UART_SENSE2_TX
-Text HLabel 1350 3950 0    50   Input ~ 0
+Text HLabel 11000 3950 0    50   Input ~ 0
 UART_SENSE2_RX
-Text HLabel 1350 1950 0    50   Input ~ 0
+Text HLabel 11000 1950 0    50   Input ~ 0
 USW1_S1
-Text HLabel 1350 1850 0    50   Input ~ 0
+Text HLabel 11000 1850 0    50   Input ~ 0
 USW1_S0
-Text HLabel 1350 1750 0    50   Input ~ 0
+Text HLabel 11000 1750 0    50   Input ~ 0
 USW1_EN
-Text HLabel 1350 3750 0    50   Input ~ 0
+Text HLabel 11000 3750 0    50   Input ~ 0
 USW2_S1
-Text HLabel 1350 3650 0    50   Input ~ 0
+Text HLabel 11000 3650 0    50   Input ~ 0
 USW2_S0
-Text HLabel 1350 3550 0    50   Input ~ 0
+Text HLabel 11000 3550 0    50   Input ~ 0
 USW2_EN
-Wire Wire Line
-	4800 1550 1350 1550
-Wire Wire Line
-	4800 1650 1350 1650
-Wire Wire Line
-	4800 1750 1350 1750
-Wire Wire Line
-	1350 1850 4800 1850
-Wire Wire Line
-	4800 1950 1350 1950
-Wire Wire Line
-	4800 3850 1350 3850
-Wire Wire Line
-	4800 3950 1350 3950
+Text HLabel 1500 1600 0    50   Input ~ 0
+RS485_UART_EN1
+Text HLabel 1500 1800 0    50   Input ~ 0
+RS485_UART_TX1
+Text HLabel 1500 2000 0    50   Input ~ 0
+RS485_UART_RX1
+Text HLabel 1500 3950 0    50   Input ~ 0
+RS485_UART_EN2
+Text HLabel 1500 4150 0    50   Input ~ 0
+RS485_UART_TX2
+Text HLabel 1500 4350 0    50   Input ~ 0
+RS485_UART_RX2
 $EndSCHEMATC

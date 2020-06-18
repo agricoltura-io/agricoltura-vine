@@ -543,8 +543,6 @@ Wire Wire Line
 Wire Wire Line
 	7950 900  10550 900 
 Wire Wire Line
-	10500 1000 8050 1000
-Wire Wire Line
 	8050 1000 8050 2550
 Wire Wire Line
 	8050 2550 4100 2550
@@ -632,4 +630,79 @@ Wire Wire Line
 	7950 5900 7950 4650
 Wire Wire Line
 	7950 4650 4100 4650
+Wire Wire Line
+	10300 6200 10300 5500
+Connection ~ 10300 6200
+Connection ~ 10300 2000
+Wire Wire Line
+	10300 2000 10300 1300
+Connection ~ 10300 2700
+Wire Wire Line
+	10300 2700 10300 2000
+Connection ~ 10300 3400
+Wire Wire Line
+	10300 3400 10300 2700
+Connection ~ 10300 4100
+Wire Wire Line
+	10300 4100 10300 3400
+Connection ~ 10300 4800
+Wire Wire Line
+	10300 4800 10300 4100
+Connection ~ 10300 5500
+Wire Wire Line
+	10300 5500 10300 4800
+Wire Wire Line
+	8050 1000 10550 1000
+Wire Wire Line
+	10550 1100 10100 1100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F11A0D2
+P 10100 800
+AR Path="/5EE82896/5F11A0D2" Ref="#PWR?"  Part="1" 
+AR Path="/5EE827B2/5F11A0D2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10100 650 50  0001 C CNN
+F 1 "+3V3" H 10115 973 50  0000 C CNN
+F 2 "" H 10100 800 50  0001 C CNN
+F 3 "" H 10100 800 50  0001 C CNN
+	1    10100 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 800  10100 1100
+Wire Wire Line
+	10100 6000 10550 6000
+Connection ~ 10100 1100
+Wire Wire Line
+	10550 5300 10100 5300
+Connection ~ 10100 5300
+Wire Wire Line
+	10100 5300 10100 6000
+Wire Wire Line
+	10550 4600 10100 4600
+Wire Wire Line
+	10100 1100 10100 1800
+Connection ~ 10100 4600
+Wire Wire Line
+	10100 4600 10100 5300
+Wire Wire Line
+	10550 3900 10100 3900
+Connection ~ 10100 3900
+Wire Wire Line
+	10100 3900 10100 4600
+Wire Wire Line
+	10550 3200 10100 3200
+Connection ~ 10100 3200
+Wire Wire Line
+	10100 3200 10100 3900
+Wire Wire Line
+	10550 2500 10100 2500
+Connection ~ 10100 2500
+Wire Wire Line
+	10100 2500 10100 3200
+Wire Wire Line
+	10550 1800 10100 1800
+Connection ~ 10100 1800
+Wire Wire Line
+	10100 1800 10100 2500
 $EndSCHEMATC
