@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -42,5 +42,11 @@ S 1750 4550 2150 1350
 U 5EE82896
 F0 "RS485 Interface" 50
 F1 "RS485_Interface.sch" 50
+$EndSheet
+$Sheet
+S 7550 4550 1850 1350
+U 5EF943A9
+F0 "5V IO Interfaces" 50
+F1 "5V_Interfaces.sch" 50
 $EndSheet
 $EndSCHEMATC
