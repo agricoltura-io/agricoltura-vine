@@ -1438,11 +1438,11 @@ Text HLabel 1350 1850 0    50   Input ~ 0
 USW1_S0
 Text HLabel 1350 1750 0    50   Input ~ 0
 USW1_EN
-Text HLabel 1800 4550 0    50   Input ~ 0
+Text HLabel 1350 3750 0    50   Input ~ 0
 USW2_S1
-Text HLabel 1800 4450 0    50   Input ~ 0
+Text HLabel 1350 3650 0    50   Input ~ 0
 USW2_S0
-Text HLabel 1800 4350 0    50   Input ~ 0
+Text HLabel 1350 3550 0    50   Input ~ 0
 USW2_EN
 Wire Wire Line
 	4800 1550 1350 1550
