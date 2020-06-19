@@ -875,4 +875,148 @@ Wire Wire Line
 Connection ~ 4600 3500
 Wire Wire Line
 	4600 3500 4800 3500
+$Comp
+L AVR-KiCAD-Lib-Holes_Fasteners:M2_Plated_Hole H1
+U 1 1 5F227FD5
+P 2750 5600
+F 0 "H1" H 2978 5646 50  0000 L CNN
+F 1 "M2_Plated_Hole" H 2978 5555 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Holes_Fasteners:M2_HOLE" H 2750 5600 50  0001 C CNN
+F 3 "" H 2750 5600 50  0001 C CNN
+F 4 "*" H 2850 5850 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 2950 5950 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3050 6050 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3150 6150 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3250 6250 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 3350 6350 50  0001 C CNN "MFR"
+F 10 "*" H 3450 6450 50  0001 C CNN "MFR#"
+F 11 "*" H 3550 6550 50  0001 C CNN "Vendor"
+F 12 "*" H 3650 6650 50  0001 C CNN "Vendor #"
+F 13 "*" H 3750 6750 50  0001 C CNN "Designer"
+F 14 "*" H 3850 6850 50  0001 C CNN "Height"
+F 15 "*" H 4950 7950 50  0001 C CNN "Date Created"
+F 16 "*" H 3950 6950 50  0001 C CNN "Date Modified"
+F 17 "*" H 4050 7050 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 4150 7150 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 4250 7250 50  0001 C CNN "Mounting"
+F 20 "*" H 4350 7350 50  0001 C CNN "Pin Count #"
+F 21 "*" H 4450 7450 50  0001 C CNN "Status"
+F 22 "*" H 4550 7550 50  0001 C CNN "Tolerance"
+F 23 "*" H 4650 7650 50  0001 C CNN "Type"
+F 24 "*" H 4750 7750 50  0001 C CNN "Voltage"
+F 25 "*" H 4850 7900 50  0001 C CNN "Package"
+F 26 "M2 Hole" H 5050 8100 50  0001 C CNN "_Value_"
+F 27 "*" H 5150 8200 50  0001 C CNN "Management_ID"
+F 28 "Plated M2 Screw Hole" H 5150 8200 50  0001 C CNN "Description"
+	1    2750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Holes_Fasteners:M2_Plated_Hole H2
+U 1 1 5F22DFB9
+P 2750 5900
+F 0 "H2" H 2978 5946 50  0000 L CNN
+F 1 "M2_Plated_Hole" H 2978 5855 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Holes_Fasteners:M2_HOLE" H 2750 5900 50  0001 C CNN
+F 3 "" H 2750 5900 50  0001 C CNN
+F 4 "*" H 2850 6150 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 2950 6250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3050 6350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3150 6450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3250 6550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 3350 6650 50  0001 C CNN "MFR"
+F 10 "*" H 3450 6750 50  0001 C CNN "MFR#"
+F 11 "*" H 3550 6850 50  0001 C CNN "Vendor"
+F 12 "*" H 3650 6950 50  0001 C CNN "Vendor #"
+F 13 "*" H 3750 7050 50  0001 C CNN "Designer"
+F 14 "*" H 3850 7150 50  0001 C CNN "Height"
+F 15 "*" H 4950 8250 50  0001 C CNN "Date Created"
+F 16 "*" H 3950 7250 50  0001 C CNN "Date Modified"
+F 17 "*" H 4050 7350 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 4150 7450 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 4250 7550 50  0001 C CNN "Mounting"
+F 20 "*" H 4350 7650 50  0001 C CNN "Pin Count #"
+F 21 "*" H 4450 7750 50  0001 C CNN "Status"
+F 22 "*" H 4550 7850 50  0001 C CNN "Tolerance"
+F 23 "*" H 4650 7950 50  0001 C CNN "Type"
+F 24 "*" H 4750 8050 50  0001 C CNN "Voltage"
+F 25 "*" H 4850 8200 50  0001 C CNN "Package"
+F 26 "M2 Hole" H 5050 8400 50  0001 C CNN "_Value_"
+F 27 "*" H 5150 8500 50  0001 C CNN "Management_ID"
+F 28 "Plated M2 Screw Hole" H 5150 8500 50  0001 C CNN "Description"
+	1    2750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Holes_Fasteners:M2_Plated_Hole H3
+U 1 1 5F22E952
+P 2750 6200
+F 0 "H3" H 2978 6246 50  0000 L CNN
+F 1 "M2_Plated_Hole" H 2978 6155 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Holes_Fasteners:M2_HOLE" H 2750 6200 50  0001 C CNN
+F 3 "" H 2750 6200 50  0001 C CNN
+F 4 "*" H 2850 6450 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 2950 6550 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3050 6650 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3150 6750 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3250 6850 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 3350 6950 50  0001 C CNN "MFR"
+F 10 "*" H 3450 7050 50  0001 C CNN "MFR#"
+F 11 "*" H 3550 7150 50  0001 C CNN "Vendor"
+F 12 "*" H 3650 7250 50  0001 C CNN "Vendor #"
+F 13 "*" H 3750 7350 50  0001 C CNN "Designer"
+F 14 "*" H 3850 7450 50  0001 C CNN "Height"
+F 15 "*" H 4950 8550 50  0001 C CNN "Date Created"
+F 16 "*" H 3950 7550 50  0001 C CNN "Date Modified"
+F 17 "*" H 4050 7650 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 4150 7750 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 4250 7850 50  0001 C CNN "Mounting"
+F 20 "*" H 4350 7950 50  0001 C CNN "Pin Count #"
+F 21 "*" H 4450 8050 50  0001 C CNN "Status"
+F 22 "*" H 4550 8150 50  0001 C CNN "Tolerance"
+F 23 "*" H 4650 8250 50  0001 C CNN "Type"
+F 24 "*" H 4750 8350 50  0001 C CNN "Voltage"
+F 25 "*" H 4850 8500 50  0001 C CNN "Package"
+F 26 "M2 Hole" H 5050 8700 50  0001 C CNN "_Value_"
+F 27 "*" H 5150 8800 50  0001 C CNN "Management_ID"
+F 28 "Plated M2 Screw Hole" H 5150 8800 50  0001 C CNN "Description"
+	1    2750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Holes_Fasteners:M2_Plated_Hole H4
+U 1 1 5F22F019
+P 2750 6500
+F 0 "H4" H 2978 6546 50  0000 L CNN
+F 1 "M2_Plated_Hole" H 2978 6455 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Holes_Fasteners:M2_HOLE" H 2750 6500 50  0001 C CNN
+F 3 "" H 2750 6500 50  0001 C CNN
+F 4 "*" H 2850 6750 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 2950 6850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 3050 6950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 3150 7050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 3250 7150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "*" H 3350 7250 50  0001 C CNN "MFR"
+F 10 "*" H 3450 7350 50  0001 C CNN "MFR#"
+F 11 "*" H 3550 7450 50  0001 C CNN "Vendor"
+F 12 "*" H 3650 7550 50  0001 C CNN "Vendor #"
+F 13 "*" H 3750 7650 50  0001 C CNN "Designer"
+F 14 "*" H 3850 7750 50  0001 C CNN "Height"
+F 15 "*" H 4950 8850 50  0001 C CNN "Date Created"
+F 16 "*" H 3950 7850 50  0001 C CNN "Date Modified"
+F 17 "*" H 4050 7950 50  0001 C CNN "Lead-Free ?"
+F 18 "*" H 4150 8050 50  0001 C CNN "RoHS Levels"
+F 19 "*" H 4250 8150 50  0001 C CNN "Mounting"
+F 20 "*" H 4350 8250 50  0001 C CNN "Pin Count #"
+F 21 "*" H 4450 8350 50  0001 C CNN "Status"
+F 22 "*" H 4550 8450 50  0001 C CNN "Tolerance"
+F 23 "*" H 4650 8550 50  0001 C CNN "Type"
+F 24 "*" H 4750 8650 50  0001 C CNN "Voltage"
+F 25 "*" H 4850 8800 50  0001 C CNN "Package"
+F 26 "M2 Hole" H 5050 9000 50  0001 C CNN "_Value_"
+F 27 "*" H 5150 9100 50  0001 C CNN "Management_ID"
+F 28 "Plated M2 Screw Hole" H 5150 9100 50  0001 C CNN "Description"
+	1    2750 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
