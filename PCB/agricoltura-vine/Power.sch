@@ -816,65 +816,19 @@ F 28 "*" H 6750 5850 50  0001 C CNN "Management_ID"
 	0    1    1    0   
 $EndComp
 Connection ~ 4350 3050
-Wire Wire Line
-	4350 3050 4800 3050
-$Comp
-L AVR-KiCAD-Lib-Capacitors:UUQ1H470MCL1GS C20
-U 1 1 5EF7802F
-P 4800 3250
-F 0 "C20" V 4779 3378 50  0000 L CNN
-F 1 "UUQ1H470MCL1GS" H 4850 3450 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Capacitors:CP_Elec_8x10" H 4600 3250 50  0001 C CNN
-F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-uuq.pdf" H 4700 3350 50  0001 C CNN
-F 4 "1.06000" H 4900 3500 50  0001 C CNN "Cost QTY: 1"
-F 5 "*" H 5000 3600 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 5100 3700 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 5200 3800 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 5300 3900 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Nichicon" H 5400 4000 50  0001 C CNN "MFR"
-F 10 "UUQ1H470MCL1GS" H 5500 4100 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 5600 4200 50  0001 C CNN "Vendor"
-F 12 "493-3212-1-ND" H 5700 4300 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 5800 4400 50  0001 C CNN "Designer"
-F 14 "6.2mm" H 5900 4500 50  0001 C CNN "Height"
-F 15 "12/16/2019" H 7000 5600 50  0001 C CNN "Date Created"
-F 16 "12/16/2019" H 6000 4600 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 6100 4700 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 6200 4800 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 6300 4900 50  0001 C CNN "Mounting"
-F 20 "2" H 6400 5000 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 6500 5100 50  0001 C CNN "Status"
-F 22 "20%" H 6600 5200 50  0001 C CNN "Tolerance"
-F 23 "Alu  Cap Audio" H 6700 5300 50  0001 C CNN "Type"
-F 24 "50V" H 6800 5400 50  0001 C CNN "Voltage"
-F 25 "Radial SMD" H 6900 5550 50  0001 C CNN "Package"
-F 26 "47µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1000 Hrs @ 105°C" H 7300 5950 50  0001 C CNN "Description"
-F 27 "47uF" V 4870 3378 50  0000 L CNN "_Value_"
-F 28 "*" H 7200 5850 50  0001 C CNN "Management_ID"
-	1    4800 3250
-	0    1    1    0   
-$EndComp
-Connection ~ 4800 3050
-Wire Wire Line
-	4800 3050 5000 3050
 $Comp
 L power:GND #PWR030
 U 1 1 5EF78FAF
-P 4600 3950
-F 0 "#PWR030" H 4600 3700 50  0001 C CNN
-F 1 "GND" H 4605 3777 50  0000 C CNN
-F 2 "" H 4600 3950 50  0001 C CNN
-F 3 "" H 4600 3950 50  0001 C CNN
-	1    4600 3950
+P 4350 3950
+F 0 "#PWR030" H 4350 3700 50  0001 C CNN
+F 1 "GND" H 4355 3777 50  0000 C CNN
+F 2 "" H 4350 3950 50  0001 C CNN
+F 3 "" H 4350 3950 50  0001 C CNN
+	1    4350 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 3500 4600 3500
-Wire Wire Line
-	4600 3950 4600 3500
-Connection ~ 4600 3500
-Wire Wire Line
-	4600 3500 4800 3500
+	4350 3950 4350 3500
 $Comp
 L AVR-KiCAD-Lib-Holes_Fasteners:M2_Plated_Hole H1
 U 1 1 5F227FD5
@@ -1019,4 +973,6 @@ F 28 "Plated M2 Screw Hole" H 5150 9100 50  0001 C CNN "Description"
 	1    2750 6500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 3050 5000 3050
 $EndSCHEMATC

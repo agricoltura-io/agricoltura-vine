@@ -394,10 +394,10 @@ Connection ~ 10100 1800
 Wire Wire Line
 	10100 1800 10100 2500
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T8
 U 1 1 5F2874BA
 P 10850 850
-F 0 "T?" H 10822 701 50  0000 R CNN
+F 0 "T8" H 10822 701 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 610 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 1900 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 950 50  0001 C CNN
@@ -430,10 +430,10 @@ F 28 "*" H 13250 3450 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T9
 U 1 1 5F29199F
 P 10850 1550
-F 0 "T?" H 10822 1401 50  0000 R CNN
+F 0 "T9" H 10822 1401 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 1310 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 2600 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 1650 50  0001 C CNN
@@ -466,10 +466,10 @@ F 28 "*" H 13250 4150 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T10
 U 1 1 5F292978
 P 10850 2250
-F 0 "T?" H 10822 2101 50  0000 R CNN
+F 0 "T10" H 10822 2101 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 2010 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 3300 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 2350 50  0001 C CNN
@@ -502,10 +502,10 @@ F 28 "*" H 13250 4850 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T11
 U 1 1 5F2932C5
 P 10850 2950
-F 0 "T?" H 10822 2801 50  0000 R CNN
+F 0 "T11" H 10822 2801 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 2710 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 4000 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 3050 50  0001 C CNN
@@ -538,10 +538,10 @@ F 28 "*" H 13250 5550 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T12
 U 1 1 5F293E88
 P 10850 3650
-F 0 "T?" H 10822 3501 50  0000 R CNN
+F 0 "T12" H 10822 3501 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 3410 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 4700 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 3750 50  0001 C CNN
@@ -574,10 +574,10 @@ F 28 "*" H 13250 6250 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T13
 U 1 1 5F294A69
 P 10850 4350
-F 0 "T?" H 10822 4201 50  0000 R CNN
+F 0 "T13" H 10822 4201 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 4110 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 5400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 4450 50  0001 C CNN
@@ -610,10 +610,10 @@ F 28 "*" H 13250 6950 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T14
 U 1 1 5F2958AE
 P 10850 5050
-F 0 "T?" H 10822 4901 50  0000 R CNN
+F 0 "T14" H 10822 4901 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 4810 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 6100 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 5150 50  0001 C CNN
@@ -646,10 +646,10 @@ F 28 "*" H 13250 7650 50  0001 C CNN "Management_ID"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T?
+L AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN) T15
 U 1 1 5F296685
 P 10850 5750
-F 0 "T?" H 10822 5601 50  0000 R CNN
+F 0 "T15" H 10822 5601 50  0000 R CNN
 F 1 "B4B-PH-K-S(LF)(SN)" H 10822 5510 50  0000 R CNN
 F 2 "AVR-KiCAD-Lib-Connectors:B4B-PH-K-S(LF)(SN)" H 9550 6800 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10750 5850 50  0001 C CNN

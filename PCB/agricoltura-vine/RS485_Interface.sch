@@ -121,42 +121,6 @@ F 28 "*" H 11450 4900 50  0001 C CNN "Management_ID"
 	1    9050 2300
 	-1   0    0    -1  
 $EndComp
-$Comp
-L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T18
-U 1 1 5EFFF009
-P 9050 4650
-F 0 "T18" H 9250 4815 50  0000 C CNN
-F 1 "RJHSE-5381" H 9250 4724 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8850 4650 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8950 4750 50  0001 C CNN
-F 4 "1.51000" H 9150 4900 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.83700" H 9250 5000 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.80600" H 9350 5100 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 9450 5200 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 9550 5300 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Amphenol ICC (Commercial Products)" H 9650 5400 50  0001 C CNN "MFR"
-F 10 "RJHSE-5381" H 9750 5500 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 9850 5600 50  0001 C CNN "Vendor"
-F 12 "RJHSE-5381-ND" H 9950 5700 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10050 5800 50  0001 C CNN "Designer"
-F 14 "13.46mm" H 10150 5900 50  0001 C CNN "Height"
-F 15 "6/16/2020" H 11250 7000 50  0001 C CNN "Date Created"
-F 16 "6/16/2020" H 10250 6000 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10350 6100 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 10450 6200 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 10550 6300 50  0001 C CNN "Mounting"
-F 20 "14" H 10650 6400 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 10750 6500 50  0001 C CNN "Status"
-F 22 "*" H 10850 6600 50  0001 C CNN "Tolerance"
-F 23 "RJ45" H 10950 6700 50  0001 C CNN "Type"
-F 24 "*" H 11050 6800 50  0001 C CNN "Voltage"
-F 25 "*" H 11150 6950 50  0001 C CNN "Package"
-F 26 "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger" H 11550 7350 50  0001 C CNN "Description"
-F 27 "RJ45 NO MAG" H 11350 7150 50  0001 C CNN "_Value_"
-F 28 "*" H 11450 7250 50  0001 C CNN "Management_ID"
-	1    9050 4650
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 2500 6750 2500
 Wire Wire Line
@@ -1158,5 +1122,41 @@ F 27 "0.1uF" V 5470 2078 50  0000 L CNN "_Value_"
 F 28 "*" H 7800 4550 50  0001 C CNN "Management_ID"
 	1    5400 1950
 	0    1    1    0   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T18
+U 1 1 5EFFF009
+P 9050 4650
+F 0 "T18" H 9250 4815 50  0000 C CNN
+F 1 "RJHSE-5381" H 9250 4724 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8850 4650 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8950 4750 50  0001 C CNN
+F 4 "1.51000" H 9150 4900 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.83700" H 9250 5000 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.80600" H 9350 5100 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 9450 5200 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 9550 5300 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Amphenol ICC (Commercial Products)" H 9650 5400 50  0001 C CNN "MFR"
+F 10 "RJHSE-5381" H 9750 5500 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 9850 5600 50  0001 C CNN "Vendor"
+F 12 "RJHSE-5381-ND" H 9950 5700 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 10050 5800 50  0001 C CNN "Designer"
+F 14 "13.46mm" H 10150 5900 50  0001 C CNN "Height"
+F 15 "6/16/2020" H 11250 7000 50  0001 C CNN "Date Created"
+F 16 "6/16/2020" H 10250 6000 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 10350 6100 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 10450 6200 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 10550 6300 50  0001 C CNN "Mounting"
+F 20 "14" H 10650 6400 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 10750 6500 50  0001 C CNN "Status"
+F 22 "*" H 10850 6600 50  0001 C CNN "Tolerance"
+F 23 "RJ45" H 10950 6700 50  0001 C CNN "Type"
+F 24 "*" H 11050 6800 50  0001 C CNN "Voltage"
+F 25 "*" H 11150 6950 50  0001 C CNN "Package"
+F 26 "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger" H 11550 7350 50  0001 C CNN "Description"
+F 27 "RJ45 NO MAG" H 11350 7150 50  0001 C CNN "_Value_"
+F 28 "*" H 11450 7250 50  0001 C CNN "Management_ID"
+	1    9050 4650
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
