@@ -229,42 +229,6 @@ F 28 "*" H 10050 8400 50  0001 C CNN "Management_ID"
 	1    7650 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L AVR-KiCAD-Lib-Mech-Switches:B3U-1000P SW1
-U 1 1 5EEC10BD
-P 5600 5400
-F 0 "SW1" H 5600 5550 50  0000 C CNN
-F 1 "B3U-1000P" H 5650 5350 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Mech-Switches:B3U-1000P" H 5600 5400 50  0001 C CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5600 5400 50  0001 C CNN
-F 4 "0.98000" H 5700 5650 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.59822" H 5800 5750 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 5900 5850 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 6000 5950 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 6100 6050 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Omron Electronics Inc-EMC Div" H 6200 6150 50  0001 C CNN "MFR"
-F 10 "B3U-1000P" H 6300 6250 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 6400 6350 50  0001 C CNN "Vendor"
-F 12 "SW1020CT-ND" H 6500 6450 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 6600 6550 50  0001 C CNN "Designer"
-F 14 "1.6mm" H 6700 6650 50  0001 C CNN "Height"
-F 15 "6/15/2020" H 7800 7750 50  0001 C CNN "Date Created"
-F 16 "6/15/2020" H 6800 6750 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 6900 6850 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 7000 6950 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 7100 7050 50  0001 C CNN "Mounting"
-F 20 "2" H 7200 7150 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 7300 7250 50  0001 C CNN "Status"
-F 22 "*" H 7400 7350 50  0001 C CNN "Tolerance"
-F 23 "Switch" H 7500 7450 50  0001 C CNN "Type"
-F 24 "*" H 7600 7550 50  0001 C CNN "Voltage"
-F 25 "Proprietary" H 7700 7700 50  0001 C CNN "Package"
-F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 8000 8000 50  0001 C CNN "Description"
-F 27 "B3U-1000P" H 7900 7900 50  0001 C CNN "_Value_"
-F 28 "*" H 8000 8000 50  0001 C CNN "Management_ID"
-	1    5600 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 5900 8750 5900
 Wire Wire Line
@@ -1179,19 +1143,19 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5EF64659
-P 5900 5850
-F 0 "#PWR010" H 5900 5600 50  0001 C CNN
-F 1 "GND" H 5905 5677 50  0000 C CNN
-F 2 "" H 5900 5850 50  0001 C CNN
-F 3 "" H 5900 5850 50  0001 C CNN
-	1    5900 5850
+P 6250 5950
+F 0 "#PWR010" H 6250 5700 50  0001 C CNN
+F 1 "GND" H 6255 5777 50  0000 C CNN
+F 2 "" H 6250 5950 50  0001 C CNN
+F 3 "" H 6250 5950 50  0001 C CNN
+	1    6250 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 5400 5900 5850
+	6250 5500 6250 5950
 Wire Wire Line
-	5900 5850 5300 5850
-Connection ~ 5900 5850
+	6250 5950 5650 5950
+Connection ~ 6250 5950
 $Comp
 L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C13
 U 1 1 5EF69E55
@@ -1771,4 +1735,76 @@ F 3 "" H 10350 4050 50  0001 C CNN
 	1    10350 4050
 	1    0    0    -1  
 $EndComp
+Text Label 8800 2950 0    50   ~ 0
+D-
+Text Label 8800 3050 0    50   ~ 0
+D+
+Text Label 8800 3150 0    50   ~ 0
+ID
+Text Label 8800 2850 0    50   ~ 0
+VBUS
+Text Label 4650 5400 0    50   ~ 0
+NRST
+Text Label 1650 5400 0    50   ~ 0
+OSC_IN
+Text Label 1650 5550 0    50   ~ 0
+OSC_OUT
+Text Label 6850 3850 0    50   ~ 0
+OSC32_IN
+Text Label 6650 4500 1    50   ~ 0
+OSC32_OUT
+Text Label 7550 4100 1    50   ~ 0
+VCAP1
+$Comp
+L AVR-KiCAD-Lib-Mech-Switches:TL3301NF260QG SW1
+U 1 1 5EF8B26F
+P 5950 5400
+F 0 "SW1" H 5950 5550 50  0000 C CNN
+F 1 "TL3301NF260QG" H 6600 5250 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Mech-Switches:TL3301NF260QG" H 5950 5400 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010517.pdf" H 5950 5400 50  0001 C CNN
+F 4 "0.38000" H 6050 5650 50  0001 C CNN "Cost QTY: 1"
+F 5 "*" H 6150 5750 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 6250 5850 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 6350 5950 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 6450 6050 50  0001 C CNN "Cost QTY: 10000"
+F 9 "E-Switch" H 6550 6150 50  0001 C CNN "MFR"
+F 10 "TL3301NF260QG" H 6650 6250 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 6750 6350 50  0001 C CNN "Vendor"
+F 12 "EG1868TR-ND" H 6850 6450 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 6950 6550 50  0001 C CNN "Designer"
+F 14 "4.4mm" H 7050 6650 50  0001 C CNN "Height"
+F 15 "2/28/2020" H 8150 7750 50  0001 C CNN "Date Created"
+F 16 "2/28/2020" H 7150 6750 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 7250 6850 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 7350 6950 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 7450 7050 50  0001 C CNN "Mounting"
+F 20 "4" H 7550 7150 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 7650 7250 50  0001 C CNN "Status"
+F 22 "*" H 7750 7350 50  0001 C CNN "Tolerance"
+F 23 "Mechanical Momentary Switch " H 7850 7450 50  0001 C CNN "Type"
+F 24 "12VDC" H 7950 7550 50  0001 C CNN "Voltage"
+F 25 "Proprietary" H 8050 7700 50  0001 C CNN "Package"
+F 26 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 8350 8000 50  0001 C CNN "Description"
+F 27 "TL3301NF260QG" H 8250 7900 50  0001 C CNN "_Value_"
+F 28 "*" H 8350 8000 50  0001 C CNN "Management_ID"
+	1    5950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5950 5650 5500
+Wire Wire Line
+	5300 5400 5650 5400
+Wire Wire Line
+	5650 5400 5650 5150
+Wire Wire Line
+	5650 5150 6250 5150
+Wire Wire Line
+	6250 5150 6250 5400
+Connection ~ 5650 5400
+Wire Wire Line
+	5300 5850 5300 5950
+Wire Wire Line
+	5300 5950 5650 5950
+Connection ~ 5650 5950
 $EndSCHEMATC

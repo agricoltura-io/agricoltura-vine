@@ -1,4 +1,4 @@
-83308609856716
+86611644821836
 AVR-KiCAD-Lib-Connectors
 2X6HDR2.54mm
 
@@ -55,6 +55,13 @@ AVR-KiCAD-Lib-Connectors
 0
 10
 10
+AVR-KiCAD-Lib-Connectors
+0395121004
+
+
+0
+4
+4
 AVR-KiCAD-Lib-Connectors
 1054500101_USB_C
 
@@ -138,7 +145,7 @@ CONN_BM04B-SRSS-TB(LF)(SN)
 
 0
 6
-6
+5
 AVR-KiCAD-Lib-Connectors
 CUI_SJ1-3513
 
@@ -223,6 +230,13 @@ PULSE_JXD0-0001NL
 0
 16
 16
+AVR-KiCAD-Lib-Connectors
+PhoenixContact_MSTBA-G_02x5.08mm_Angled
+Generic Phoenix Contact connector footprint for series: MSTBA-G; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)
+phoenix_contact connector MSTBA_01x02_G_5.08mm
+0
+2
+2
 AVR-KiCAD-Lib-Connectors
 PhoenixContact_MSTBA-G_05x5.00mm_Angled
 Generic Phoenix Contact connector footprint for series: MSTBA-G; number of pins: 05; pin pitch: 5.00mm; Angled || order number: 1757501 12A || order number: 1923788 16A (HC)

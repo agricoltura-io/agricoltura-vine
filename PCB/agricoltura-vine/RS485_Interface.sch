@@ -85,46 +85,8 @@ F 28 "*" H 6700 7100 50  0001 C CNN "Management_ID"
 	1    4300 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T17
-U 1 1 5EFFC7BA
-P 9050 2300
-F 0 "T17" H 9250 2465 50  0000 C CNN
-F 1 "RJHSE-5381" H 9250 2374 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8850 2300 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8950 2400 50  0001 C CNN
-F 4 "1.51000" H 9150 2550 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.83700" H 9250 2650 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.80600" H 9350 2750 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 9450 2850 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 9550 2950 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Amphenol ICC (Commercial Products)" H 9650 3050 50  0001 C CNN "MFR"
-F 10 "RJHSE-5381" H 9750 3150 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 9850 3250 50  0001 C CNN "Vendor"
-F 12 "RJHSE-5381-ND" H 9950 3350 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10050 3450 50  0001 C CNN "Designer"
-F 14 "13.46mm" H 10150 3550 50  0001 C CNN "Height"
-F 15 "6/16/2020" H 11250 4650 50  0001 C CNN "Date Created"
-F 16 "6/16/2020" H 10250 3650 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10350 3750 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 10450 3850 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 10550 3950 50  0001 C CNN "Mounting"
-F 20 "14" H 10650 4050 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 10750 4150 50  0001 C CNN "Status"
-F 22 "*" H 10850 4250 50  0001 C CNN "Tolerance"
-F 23 "RJ45" H 10950 4350 50  0001 C CNN "Type"
-F 24 "*" H 11050 4450 50  0001 C CNN "Voltage"
-F 25 "*" H 11150 4600 50  0001 C CNN "Package"
-F 26 "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger" H 11550 5000 50  0001 C CNN "Description"
-F 27 "RJ45 NO MAG" H 11350 4800 50  0001 C CNN "_Value_"
-F 28 "*" H 11450 4900 50  0001 C CNN "Management_ID"
-	1    9050 2300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 2500 6750 2500
-Wire Wire Line
-	8550 2600 6850 2600
 Wire Wire Line
 	5000 2600 5000 2700
 Wire Wire Line
@@ -243,8 +205,6 @@ Text Label 2800 2200 0    50   ~ 0
 RS485_UART_EN1
 Wire Wire Line
 	5000 4850 6750 4850
-Wire Wire Line
-	8550 4950 6850 4950
 Wire Wire Line
 	5000 4950 5000 5050
 Wire Wire Line
@@ -491,38 +451,38 @@ $EndComp
 $Comp
 L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW2
 U 1 1 5F09CD45
-P 6700 1900
-F 0 "SW2" H 6928 1871 50  0000 L CNN
-F 1 "CVS-02TB" H 6928 1780 50  0000 L CNN
-F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 6700 2400 50  0001 C CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 6700 1900 50  0001 C CNN
-F 4 "2.39000" H 6800 2150 50  0001 C CNN "Cost QTY: 1"
-F 5 "1.43190" H 6900 2250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "1.30290" H 7000 2350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 7100 2450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "1.18130" H 7200 2550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Nidec Copal Electronics" H 7300 2650 50  0001 C CNN "MFR"
-F 10 "CVS-02TB" H 7400 2750 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 7500 2850 50  0001 C CNN "Vendor"
-F 12 "563-1193-2-ND" H 7600 2950 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 7700 3050 50  0001 C CNN "Designer"
-F 14 "1.45mm" H 7800 3150 50  0001 C CNN "Height"
-F 15 "4/30/2020" H 8900 4250 50  0001 C CNN "Date Created"
-F 16 "4/30/2020" H 7900 3250 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 8000 3350 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 8100 3450 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 8200 3550 50  0001 C CNN "Mounting"
-F 20 "4" H 8300 3650 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 8400 3750 50  0001 C CNN "Status"
-F 22 "*" H 8500 3850 50  0001 C CNN "Tolerance"
-F 23 "DIP Switch" H 8600 3950 50  0001 C CNN "Type"
-F 24 "6V" H 8700 4050 50  0001 C CNN "Voltage"
-F 25 "*" H 8800 4200 50  0001 C CNN "Package"
-F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 9100 4500 50  0001 C CNN "Description"
-F 27 "CVS-02TB" H 9000 4400 50  0001 C CNN "_Value_"
-F 28 "*" H 9100 4500 50  0001 C CNN "Management_ID"
-	1    6700 1900
-	1    0    0    -1  
+P 6900 1900
+F 0 "SW2" H 7128 1871 50  0000 L CNN
+F 1 "CVS-02TB" H 7128 1780 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 6900 2400 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 6900 1900 50  0001 C CNN
+F 4 "2.39000" H 7000 2150 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.43190" H 7100 2250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "1.30290" H 7200 2350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 7300 2450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "1.18130" H 7400 2550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Nidec Copal Electronics" H 7500 2650 50  0001 C CNN "MFR"
+F 10 "CVS-02TB" H 7600 2750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 7700 2850 50  0001 C CNN "Vendor"
+F 12 "563-1193-2-ND" H 7800 2950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 7900 3050 50  0001 C CNN "Designer"
+F 14 "1.45mm" H 8000 3150 50  0001 C CNN "Height"
+F 15 "4/30/2020" H 9100 4250 50  0001 C CNN "Date Created"
+F 16 "4/30/2020" H 8100 3250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 8200 3350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 8300 3450 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 8400 3550 50  0001 C CNN "Mounting"
+F 20 "4" H 8500 3650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 8600 3750 50  0001 C CNN "Status"
+F 22 "*" H 8700 3850 50  0001 C CNN "Tolerance"
+F 23 "DIP Switch" H 8800 3950 50  0001 C CNN "Type"
+F 24 "6V" H 8900 4050 50  0001 C CNN "Voltage"
+F 25 "*" H 9000 4200 50  0001 C CNN "Package"
+F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 9300 4500 50  0001 C CNN "Description"
+F 27 "CVS-02TB" H 9200 4400 50  0001 C CNN "_Value_"
+F 28 "*" H 9300 4500 50  0001 C CNN "Management_ID"
+	1    6900 1900
+	-1   0    0    -1  
 $EndComp
 Text HLabel 1950 2200 0    50   Input ~ 0
 RS485_UART_EN1
@@ -547,8 +507,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 2300 6750 2500
 Connection ~ 6750 2500
-Wire Wire Line
-	6750 2500 8550 2500
 Wire Wire Line
 	6850 2300 6850 2600
 Connection ~ 6850 2600
@@ -590,46 +548,8 @@ F 28 "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AE
 	1    7700 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW4
-U 1 1 5F0B25BE
-P 7600 1900
-F 0 "SW4" H 7828 1871 50  0000 L CNN
-F 1 "CVS-02TB" H 7828 1780 50  0000 L CNN
-F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 7600 2400 50  0001 C CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 7600 1900 50  0001 C CNN
-F 4 "2.39000" H 7700 2150 50  0001 C CNN "Cost QTY: 1"
-F 5 "1.43190" H 7800 2250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "1.30290" H 7900 2350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 8000 2450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "1.18130" H 8100 2550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Nidec Copal Electronics" H 8200 2650 50  0001 C CNN "MFR"
-F 10 "CVS-02TB" H 8300 2750 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 8400 2850 50  0001 C CNN "Vendor"
-F 12 "563-1193-2-ND" H 8500 2950 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 8600 3050 50  0001 C CNN "Designer"
-F 14 "1.45mm" H 8700 3150 50  0001 C CNN "Height"
-F 15 "4/30/2020" H 9800 4250 50  0001 C CNN "Date Created"
-F 16 "4/30/2020" H 8800 3250 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 8900 3350 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 9000 3450 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 9100 3550 50  0001 C CNN "Mounting"
-F 20 "4" H 9200 3650 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 9300 3750 50  0001 C CNN "Status"
-F 22 "*" H 9400 3850 50  0001 C CNN "Tolerance"
-F 23 "DIP Switch" H 9500 3950 50  0001 C CNN "Type"
-F 24 "6V" H 9600 4050 50  0001 C CNN "Voltage"
-F 25 "*" H 9700 4200 50  0001 C CNN "Package"
-F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 10000 4500 50  0001 C CNN "Description"
-F 27 "CVS-02TB" H 9900 4400 50  0001 C CNN "_Value_"
-F 28 "*" H 10000 4500 50  0001 C CNN "Management_ID"
-	1    7600 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7500 1550 7500 1650
-Wire Wire Line
-	7500 1650 7650 1650
 Wire Wire Line
 	7750 1650 7900 1650
 Wire Wire Line
@@ -638,12 +558,10 @@ Wire Wire Line
 	7650 2300 7650 2900
 Connection ~ 7650 2900
 Wire Wire Line
-	7650 2900 8550 2900
+	7650 2900 8500 2900
 Wire Wire Line
 	7750 2300 7750 3000
 Connection ~ 7750 3000
-Wire Wire Line
-	7750 3000 8550 3000
 $Comp
 L AVR-KiCAD-Lib-Resistors:AC0402FR-07120RL R13
 U 1 1 5F0B9FE5
@@ -683,38 +601,38 @@ $EndComp
 $Comp
 L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW3
 U 1 1 5F0BA004
-P 6700 3950
-F 0 "SW3" H 6928 3921 50  0000 L CNN
-F 1 "CVS-02TB" H 6928 3830 50  0000 L CNN
-F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 6700 4450 50  0001 C CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 6700 3950 50  0001 C CNN
-F 4 "2.39000" H 6800 4200 50  0001 C CNN "Cost QTY: 1"
-F 5 "1.43190" H 6900 4300 50  0001 C CNN "Cost QTY: 1000"
-F 6 "1.30290" H 7000 4400 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 7100 4500 50  0001 C CNN "Cost QTY: 5000"
-F 8 "1.18130" H 7200 4600 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Nidec Copal Electronics" H 7300 4700 50  0001 C CNN "MFR"
-F 10 "CVS-02TB" H 7400 4800 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 7500 4900 50  0001 C CNN "Vendor"
-F 12 "563-1193-2-ND" H 7600 5000 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 7700 5100 50  0001 C CNN "Designer"
-F 14 "1.45mm" H 7800 5200 50  0001 C CNN "Height"
-F 15 "4/30/2020" H 8900 6300 50  0001 C CNN "Date Created"
-F 16 "4/30/2020" H 7900 5300 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 8000 5400 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 8100 5500 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 8200 5600 50  0001 C CNN "Mounting"
-F 20 "4" H 8300 5700 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 8400 5800 50  0001 C CNN "Status"
-F 22 "*" H 8500 5900 50  0001 C CNN "Tolerance"
-F 23 "DIP Switch" H 8600 6000 50  0001 C CNN "Type"
-F 24 "6V" H 8700 6100 50  0001 C CNN "Voltage"
-F 25 "*" H 8800 6250 50  0001 C CNN "Package"
-F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 9100 6550 50  0001 C CNN "Description"
-F 27 "CVS-02TB" H 9000 6450 50  0001 C CNN "_Value_"
-F 28 "*" H 9100 6550 50  0001 C CNN "Management_ID"
-	1    6700 3950
-	1    0    0    -1  
+P 6900 3950
+F 0 "SW3" H 7128 3921 50  0000 L CNN
+F 1 "CVS-02TB" H 7128 3830 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 6900 4450 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 6900 3950 50  0001 C CNN
+F 4 "2.39000" H 7000 4200 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.43190" H 7100 4300 50  0001 C CNN "Cost QTY: 1000"
+F 6 "1.30290" H 7200 4400 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 7300 4500 50  0001 C CNN "Cost QTY: 5000"
+F 8 "1.18130" H 7400 4600 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Nidec Copal Electronics" H 7500 4700 50  0001 C CNN "MFR"
+F 10 "CVS-02TB" H 7600 4800 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 7700 4900 50  0001 C CNN "Vendor"
+F 12 "563-1193-2-ND" H 7800 5000 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 7900 5100 50  0001 C CNN "Designer"
+F 14 "1.45mm" H 8000 5200 50  0001 C CNN "Height"
+F 15 "4/30/2020" H 9100 6300 50  0001 C CNN "Date Created"
+F 16 "4/30/2020" H 8100 5300 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 8200 5400 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 8300 5500 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 8400 5600 50  0001 C CNN "Mounting"
+F 20 "4" H 8500 5700 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 8600 5800 50  0001 C CNN "Status"
+F 22 "*" H 8700 5900 50  0001 C CNN "Tolerance"
+F 23 "DIP Switch" H 8800 6000 50  0001 C CNN "Type"
+F 24 "6V" H 8900 6100 50  0001 C CNN "Voltage"
+F 25 "*" H 9000 6250 50  0001 C CNN "Package"
+F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 9300 6550 50  0001 C CNN "Description"
+F 27 "CVS-02TB" H 9200 6450 50  0001 C CNN "_Value_"
+F 28 "*" H 9300 6550 50  0001 C CNN "Management_ID"
+	1    6900 3950
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6600 3600 6600 3700
@@ -763,38 +681,38 @@ $EndComp
 $Comp
 L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW5
 U 1 1 5F0BA046
-P 7600 3950
-F 0 "SW5" H 7828 3921 50  0000 L CNN
-F 1 "CVS-02TB" H 7828 3830 50  0000 L CNN
-F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 7600 4450 50  0001 C CNN
-F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 7600 3950 50  0001 C CNN
-F 4 "2.39000" H 7700 4200 50  0001 C CNN "Cost QTY: 1"
-F 5 "1.43190" H 7800 4300 50  0001 C CNN "Cost QTY: 1000"
-F 6 "1.30290" H 7900 4400 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 8000 4500 50  0001 C CNN "Cost QTY: 5000"
-F 8 "1.18130" H 8100 4600 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Nidec Copal Electronics" H 8200 4700 50  0001 C CNN "MFR"
-F 10 "CVS-02TB" H 8300 4800 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 8400 4900 50  0001 C CNN "Vendor"
-F 12 "563-1193-2-ND" H 8500 5000 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 8600 5100 50  0001 C CNN "Designer"
-F 14 "1.45mm" H 8700 5200 50  0001 C CNN "Height"
-F 15 "4/30/2020" H 9800 6300 50  0001 C CNN "Date Created"
-F 16 "4/30/2020" H 8800 5300 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 8900 5400 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 9000 5500 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 9100 5600 50  0001 C CNN "Mounting"
-F 20 "4" H 9200 5700 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 9300 5800 50  0001 C CNN "Status"
-F 22 "*" H 9400 5900 50  0001 C CNN "Tolerance"
-F 23 "DIP Switch" H 9500 6000 50  0001 C CNN "Type"
-F 24 "6V" H 9600 6100 50  0001 C CNN "Voltage"
-F 25 "*" H 9700 6250 50  0001 C CNN "Package"
-F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 10000 6550 50  0001 C CNN "Description"
-F 27 "CVS-02TB" H 9900 6450 50  0001 C CNN "_Value_"
-F 28 "*" H 10000 6550 50  0001 C CNN "Management_ID"
-	1    7600 3950
-	1    0    0    -1  
+P 7800 3950
+F 0 "SW5" H 8028 3921 50  0000 L CNN
+F 1 "CVS-02TB" H 8028 3830 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 7800 4450 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 7800 3950 50  0001 C CNN
+F 4 "2.39000" H 7900 4200 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.43190" H 8000 4300 50  0001 C CNN "Cost QTY: 1000"
+F 6 "1.30290" H 8100 4400 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 8200 4500 50  0001 C CNN "Cost QTY: 5000"
+F 8 "1.18130" H 8300 4600 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Nidec Copal Electronics" H 8400 4700 50  0001 C CNN "MFR"
+F 10 "CVS-02TB" H 8500 4800 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 8600 4900 50  0001 C CNN "Vendor"
+F 12 "563-1193-2-ND" H 8700 5000 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 8800 5100 50  0001 C CNN "Designer"
+F 14 "1.45mm" H 8900 5200 50  0001 C CNN "Height"
+F 15 "4/30/2020" H 10000 6300 50  0001 C CNN "Date Created"
+F 16 "4/30/2020" H 9000 5300 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 9100 5400 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 9200 5500 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 9300 5600 50  0001 C CNN "Mounting"
+F 20 "4" H 9400 5700 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 9500 5800 50  0001 C CNN "Status"
+F 22 "*" H 9600 5900 50  0001 C CNN "Tolerance"
+F 23 "DIP Switch" H 9700 6000 50  0001 C CNN "Type"
+F 24 "6V" H 9800 6100 50  0001 C CNN "Voltage"
+F 25 "*" H 9900 6250 50  0001 C CNN "Package"
+F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 10200 6550 50  0001 C CNN "Description"
+F 27 "CVS-02TB" H 10100 6450 50  0001 C CNN "_Value_"
+F 28 "*" H 10200 6550 50  0001 C CNN "Management_ID"
+	1    7800 3950
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 3600 7500 3700
@@ -808,8 +726,6 @@ Wire Wire Line
 	6750 4350 6750 4850
 Connection ~ 6750 4850
 Wire Wire Line
-	6750 4850 8550 4850
-Wire Wire Line
 	6850 4350 6850 4950
 Connection ~ 6850 4950
 Wire Wire Line
@@ -818,220 +734,8 @@ Wire Wire Line
 	7650 4350 7650 5250
 Connection ~ 7650 5250
 Wire Wire Line
-	7650 5250 8550 5250
-Wire Wire Line
 	7750 4350 7750 5350
 Connection ~ 7750 5350
-Wire Wire Line
-	7750 5350 8550 5350
-$Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R16
-U 1 1 5F0C6C33
-P 9650 2500
-F 0 "R16" H 9500 2450 50  0000 C CNN
-F 1 "RC0402FR-071KL" H 9650 2725 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 2500 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 2500 50  0001 C CNN
-F 4 "0.10000" H 9750 2750 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.00289" H 9850 2850 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.00251" H 9950 2950 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.00207" H 10050 3050 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.00163" H 10150 3150 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Yageo" H 10250 3250 50  0001 C CNN "MFR"
-F 10 "RC0402FR-071KL" H 10350 3350 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 10450 3450 50  0001 C CNN "Vendor"
-F 12 "311-1.00KLRTR-ND" H 10550 3550 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10650 3650 50  0001 C CNN "Designer"
-F 14 "0.4mm" H 10750 3750 50  0001 C CNN "Height"
-F 15 "12/11/2019" H 11850 4850 50  0001 C CNN "Date Created"
-F 16 "12/11/2019" H 10850 3850 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10950 3950 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 11050 4050 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 11150 4150 50  0001 C CNN "Mounting"
-F 20 "2" H 11250 4250 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 11350 4350 50  0001 C CNN "Status"
-F 22 "1%" H 11450 4450 50  0001 C CNN "Tolerance"
-F 23 "Thick Film Resistor" H 11550 4550 50  0001 C CNN "Type"
-F 24 "*" H 11650 4650 50  0001 C CNN "Voltage"
-F 25 "0402" H 11750 4800 50  0001 C CNN "Package"
-F 26 "1K" H 9800 2450 50  0000 C CNN "_Value_"
-F 27 "*" H 12050 5100 50  0001 C CNN "Management_ID"
-F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12050 5100 50  0001 C CNN "Description"
-	1    9650 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R17
-U 1 1 5F0C79C2
-P 9650 3100
-F 0 "R17" H 9500 3050 50  0000 C CNN
-F 1 "RC0402FR-071KL" H 9650 3325 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 3100 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 3100 50  0001 C CNN
-F 4 "0.10000" H 9750 3350 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.00289" H 9850 3450 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.00251" H 9950 3550 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.00207" H 10050 3650 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.00163" H 10150 3750 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Yageo" H 10250 3850 50  0001 C CNN "MFR"
-F 10 "RC0402FR-071KL" H 10350 3950 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 10450 4050 50  0001 C CNN "Vendor"
-F 12 "311-1.00KLRTR-ND" H 10550 4150 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10650 4250 50  0001 C CNN "Designer"
-F 14 "0.4mm" H 10750 4350 50  0001 C CNN "Height"
-F 15 "12/11/2019" H 11850 5450 50  0001 C CNN "Date Created"
-F 16 "12/11/2019" H 10850 4450 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10950 4550 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 11050 4650 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 11150 4750 50  0001 C CNN "Mounting"
-F 20 "2" H 11250 4850 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 11350 4950 50  0001 C CNN "Status"
-F 22 "1%" H 11450 5050 50  0001 C CNN "Tolerance"
-F 23 "Thick Film Resistor" H 11550 5150 50  0001 C CNN "Type"
-F 24 "*" H 11650 5250 50  0001 C CNN "Voltage"
-F 25 "0402" H 11750 5400 50  0001 C CNN "Package"
-F 26 "1K" H 9800 3050 50  0000 C CNN "_Value_"
-F 27 "*" H 12050 5700 50  0001 C CNN "Management_ID"
-F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12050 5700 50  0001 C CNN "Description"
-	1    9650 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R18
-U 1 1 5F0CC945
-P 9650 4850
-F 0 "R18" H 9500 4800 50  0000 C CNN
-F 1 "RC0402FR-071KL" H 9650 5075 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 4850 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 4850 50  0001 C CNN
-F 4 "0.10000" H 9750 5100 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.00289" H 9850 5200 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.00251" H 9950 5300 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.00207" H 10050 5400 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.00163" H 10150 5500 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Yageo" H 10250 5600 50  0001 C CNN "MFR"
-F 10 "RC0402FR-071KL" H 10350 5700 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 10450 5800 50  0001 C CNN "Vendor"
-F 12 "311-1.00KLRTR-ND" H 10550 5900 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10650 6000 50  0001 C CNN "Designer"
-F 14 "0.4mm" H 10750 6100 50  0001 C CNN "Height"
-F 15 "12/11/2019" H 11850 7200 50  0001 C CNN "Date Created"
-F 16 "12/11/2019" H 10850 6200 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10950 6300 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 11050 6400 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 11150 6500 50  0001 C CNN "Mounting"
-F 20 "2" H 11250 6600 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 11350 6700 50  0001 C CNN "Status"
-F 22 "1%" H 11450 6800 50  0001 C CNN "Tolerance"
-F 23 "Thick Film Resistor" H 11550 6900 50  0001 C CNN "Type"
-F 24 "*" H 11650 7000 50  0001 C CNN "Voltage"
-F 25 "0402" H 11750 7150 50  0001 C CNN "Package"
-F 26 "1K" H 9800 4800 50  0000 C CNN "_Value_"
-F 27 "*" H 12050 7450 50  0001 C CNN "Management_ID"
-F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12050 7450 50  0001 C CNN "Description"
-	1    9650 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R19
-U 1 1 5F0CC964
-P 9650 5450
-F 0 "R19" H 9500 5400 50  0000 C CNN
-F 1 "RC0402FR-071KL" H 9650 5675 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 5450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 5450 50  0001 C CNN
-F 4 "0.10000" H 9750 5700 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.00289" H 9850 5800 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.00251" H 9950 5900 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.00207" H 10050 6000 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.00163" H 10150 6100 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Yageo" H 10250 6200 50  0001 C CNN "MFR"
-F 10 "RC0402FR-071KL" H 10350 6300 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 10450 6400 50  0001 C CNN "Vendor"
-F 12 "311-1.00KLRTR-ND" H 10550 6500 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10650 6600 50  0001 C CNN "Designer"
-F 14 "0.4mm" H 10750 6700 50  0001 C CNN "Height"
-F 15 "12/11/2019" H 11850 7800 50  0001 C CNN "Date Created"
-F 16 "12/11/2019" H 10850 6800 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10950 6900 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 11050 7000 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 11150 7100 50  0001 C CNN "Mounting"
-F 20 "2" H 11250 7200 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 11350 7300 50  0001 C CNN "Status"
-F 22 "1%" H 11450 7400 50  0001 C CNN "Tolerance"
-F 23 "Thick Film Resistor" H 11550 7500 50  0001 C CNN "Type"
-F 24 "*" H 11650 7600 50  0001 C CNN "Voltage"
-F 25 "0402" H 11750 7750 50  0001 C CNN "Package"
-F 26 "1K" H 9800 5400 50  0000 C CNN "_Value_"
-F 27 "*" H 12050 8050 50  0001 C CNN "Management_ID"
-F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12050 8050 50  0001 C CNN "Description"
-	1    9650 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 5450 9150 5450
-Wire Wire Line
-	9450 4850 9150 4850
-Wire Wire Line
-	9450 3100 9150 3100
-Wire Wire Line
-	9450 2500 9150 2500
-Wire Wire Line
-	9150 2400 9300 2400
-Wire Wire Line
-	9300 2400 9300 3000
-Wire Wire Line
-	9300 3000 9150 3000
-Wire Wire Line
-	9300 3000 9300 3350
-Connection ~ 9300 3000
-$Comp
-L power:GND #PWR048
-U 1 1 5F0DA94B
-P 9300 3350
-F 0 "#PWR048" H 9300 3100 50  0001 C CNN
-F 1 "GND" H 9305 3177 50  0000 C CNN
-F 2 "" H 9300 3350 50  0001 C CNN
-F 3 "" H 9300 3350 50  0001 C CNN
-	1    9300 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 4750 9350 4750
-Wire Wire Line
-	9350 4750 9350 5350
-Wire Wire Line
-	9350 5350 9150 5350
-Wire Wire Line
-	9350 5350 9350 5750
-Connection ~ 9350 5350
-$Comp
-L power:GND #PWR049
-U 1 1 5F0DF7B7
-P 9350 5750
-F 0 "#PWR049" H 9350 5500 50  0001 C CNN
-F 1 "GND" H 9355 5577 50  0000 C CNN
-F 2 "" H 9350 5750 50  0001 C CNN
-F 3 "" H 9350 5750 50  0001 C CNN
-	1    9350 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 2500 10600 2500
-Wire Wire Line
-	9850 3100 10600 3100
-Wire Wire Line
-	9850 4850 10600 4850
-Wire Wire Line
-	9850 5450 10600 5450
-Text HLabel 10600 4850 2    50   Input ~ 0
-RS485_2_LED1
-Text HLabel 10600 5450 2    50   Input ~ 0
-RS485_2_LED2
-Text HLabel 10600 2500 2    50   Input ~ 0
-RS485_1_LED1
-Text HLabel 10600 3100 2    50   Input ~ 0
-RS485_1_LED2
 Connection ~ 5850 1750
 $Comp
 L power:+3V3 #PWR046
@@ -1123,40 +827,332 @@ F 28 "*" H 7800 4550 50  0001 C CNN "Management_ID"
 	1    5400 1950
 	0    1    1    0   
 $EndComp
+Text HLabel 10550 2400 2    50   Input ~ 0
+RS485_1_LED2
+Text HLabel 10550 3000 2    50   Input ~ 0
+RS485_1_LED1
+Wire Wire Line
+	7750 3000 8500 3000
+Wire Wire Line
+	8500 2600 6850 2600
+Wire Wire Line
+	9800 2400 10550 2400
+Wire Wire Line
+	9800 3000 10550 3000
+$Comp
+L power:GND #PWR048
+U 1 1 5F0DA94B
+P 9250 3100
+F 0 "#PWR048" H 9250 2850 50  0001 C CNN
+F 1 "GND" H 9255 2927 50  0000 C CNN
+F 2 "" H 9250 3100 50  0001 C CNN
+F 3 "" H 9250 3100 50  0001 C CNN
+	1    9250 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2500 9100 2500
+Wire Wire Line
+	9250 3100 9250 2500
+Wire Wire Line
+	9100 3100 9250 3100
+Wire Wire Line
+	9400 3000 9100 3000
+Wire Wire Line
+	9400 2400 9100 2400
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R17
+U 1 1 5F0C79C2
+P 9600 2400
+F 0 "R17" H 9450 2350 50  0000 C CNN
+F 1 "RC0402FR-071KL" H 9600 2625 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9600 2400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9600 2400 50  0001 C CNN
+F 4 "0.10000" H 9700 2650 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 9800 2750 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 9900 2850 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 10000 2950 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 10100 3050 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 10200 3150 50  0001 C CNN "MFR"
+F 10 "RC0402FR-071KL" H 10300 3250 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 10400 3350 50  0001 C CNN "Vendor"
+F 12 "311-1.00KLRTR-ND" H 10500 3450 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 10600 3550 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 10700 3650 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 11800 4750 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 10800 3750 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 10900 3850 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 11000 3950 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 11100 4050 50  0001 C CNN "Mounting"
+F 20 "2" H 11200 4150 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 11300 4250 50  0001 C CNN "Status"
+F 22 "1%" H 11400 4350 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 11500 4450 50  0001 C CNN "Type"
+F 24 "*" H 11600 4550 50  0001 C CNN "Voltage"
+F 25 "0402" H 11700 4700 50  0001 C CNN "Package"
+F 26 "1K" H 9750 2350 50  0000 C CNN "_Value_"
+F 27 "*" H 12000 5000 50  0001 C CNN "Management_ID"
+F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12000 5000 50  0001 C CNN "Description"
+	1    9600 2400
+	1    0    0    1   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R16
+U 1 1 5F0C6C33
+P 9600 3000
+F 0 "R16" H 9450 2950 50  0000 C CNN
+F 1 "RC0402FR-071KL" H 9600 3225 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9600 3000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9600 3000 50  0001 C CNN
+F 4 "0.10000" H 9700 3250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 9800 3350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 9900 3450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 10000 3550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 10100 3650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 10200 3750 50  0001 C CNN "MFR"
+F 10 "RC0402FR-071KL" H 10300 3850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 10400 3950 50  0001 C CNN "Vendor"
+F 12 "311-1.00KLRTR-ND" H 10500 4050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 10600 4150 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 10700 4250 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 11800 5350 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 10800 4350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 10900 4450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 11000 4550 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 11100 4650 50  0001 C CNN "Mounting"
+F 20 "2" H 11200 4750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 11300 4850 50  0001 C CNN "Status"
+F 22 "1%" H 11400 4950 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 11500 5050 50  0001 C CNN "Type"
+F 24 "*" H 11600 5150 50  0001 C CNN "Voltage"
+F 25 "0402" H 11700 5300 50  0001 C CNN "Package"
+F 26 "1K" H 9750 2950 50  0000 C CNN "_Value_"
+F 27 "*" H 12000 5600 50  0001 C CNN "Management_ID"
+F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12000 5600 50  0001 C CNN "Description"
+	1    9600 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T17
+U 1 1 5EFFC7BA
+P 9000 3200
+F 0 "T17" H 9200 3365 50  0000 C CNN
+F 1 "RJHSE-5381" H 9200 3274 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8800 3200 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8900 3300 50  0001 C CNN
+F 4 "1.51000" H 9100 3450 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.83700" H 9200 3550 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.80600" H 9300 3650 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 9400 3750 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 9500 3850 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Amphenol ICC (Commercial Products)" H 9600 3950 50  0001 C CNN "MFR"
+F 10 "RJHSE-5381" H 9700 4050 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 9800 4150 50  0001 C CNN "Vendor"
+F 12 "RJHSE-5381-ND" H 9900 4250 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 10000 4350 50  0001 C CNN "Designer"
+F 14 "13.46mm" H 10100 4450 50  0001 C CNN "Height"
+F 15 "6/16/2020" H 11200 5550 50  0001 C CNN "Date Created"
+F 16 "6/16/2020" H 10200 4550 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 10300 4650 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 10400 4750 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 10500 4850 50  0001 C CNN "Mounting"
+F 20 "14" H 10600 4950 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 10700 5050 50  0001 C CNN "Status"
+F 22 "*" H 10800 5150 50  0001 C CNN "Tolerance"
+F 23 "RJ45" H 10900 5250 50  0001 C CNN "Type"
+F 24 "*" H 11000 5350 50  0001 C CNN "Voltage"
+F 25 "*" H 11100 5500 50  0001 C CNN "Package"
+F 26 "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger" H 11500 5900 50  0001 C CNN "Description"
+F 27 "RJ45 NO MAG" H 11300 5700 50  0001 C CNN "_Value_"
+F 28 "*" H 11400 5800 50  0001 C CNN "Management_ID"
+	1    9000 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 1650 7650 1650
+$Comp
+L AVR-KiCAD-Lib-Mech-Switches:CVS-02TB SW4
+U 1 1 5F0B25BE
+P 7800 1900
+F 0 "SW4" H 8028 1871 50  0000 L CNN
+F 1 "CVS-02TB" H 8028 1780 50  0000 L CNN
+F 2 "AVR-KiCAD-Lib-Mech-Switches:CVS-02TB" H 7800 2400 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf" H 7800 1900 50  0001 C CNN
+F 4 "2.39000" H 7900 2150 50  0001 C CNN "Cost QTY: 1"
+F 5 "1.43190" H 8000 2250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "1.30290" H 8100 2350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 8200 2450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "1.18130" H 8300 2550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Nidec Copal Electronics" H 8400 2650 50  0001 C CNN "MFR"
+F 10 "CVS-02TB" H 8500 2750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 8600 2850 50  0001 C CNN "Vendor"
+F 12 "563-1193-2-ND" H 8700 2950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 8800 3050 50  0001 C CNN "Designer"
+F 14 "1.45mm" H 8900 3150 50  0001 C CNN "Height"
+F 15 "4/30/2020" H 10000 4250 50  0001 C CNN "Date Created"
+F 16 "4/30/2020" H 9000 3250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 9100 3350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 9200 3450 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 9300 3550 50  0001 C CNN "Mounting"
+F 20 "4" H 9400 3650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 9500 3750 50  0001 C CNN "Status"
+F 22 "*" H 9600 3850 50  0001 C CNN "Tolerance"
+F 23 "DIP Switch" H 9700 3950 50  0001 C CNN "Type"
+F 24 "6V" H 9800 4050 50  0001 C CNN "Voltage"
+F 25 "*" H 9900 4200 50  0001 C CNN "Package"
+F 26 "Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC" H 10200 4500 50  0001 C CNN "Description"
+F 27 "CVS-02TB" H 10100 4400 50  0001 C CNN "_Value_"
+F 28 "*" H 10200 4500 50  0001 C CNN "Management_ID"
+	1    7800 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2500 8500 2500
+Connection ~ 9250 3100
+Wire Wire Line
+	7750 5350 8550 5350
+Wire Wire Line
+	7650 5250 8550 5250
+Wire Wire Line
+	8550 4950 6850 4950
+Wire Wire Line
+	6750 4850 8550 4850
+Connection ~ 9350 5450
 $Comp
 L AVR-KiCAD-Lib-Connectors:RJHSE-5381 T18
 U 1 1 5EFFF009
-P 9050 4650
-F 0 "T18" H 9250 4815 50  0000 C CNN
-F 1 "RJHSE-5381" H 9250 4724 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8850 4650 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8950 4750 50  0001 C CNN
-F 4 "1.51000" H 9150 4900 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.83700" H 9250 5000 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.80600" H 9350 5100 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 9450 5200 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 9550 5300 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Amphenol ICC (Commercial Products)" H 9650 5400 50  0001 C CNN "MFR"
-F 10 "RJHSE-5381" H 9750 5500 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 9850 5600 50  0001 C CNN "Vendor"
-F 12 "RJHSE-5381-ND" H 9950 5700 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10050 5800 50  0001 C CNN "Designer"
-F 14 "13.46mm" H 10150 5900 50  0001 C CNN "Height"
-F 15 "6/16/2020" H 11250 7000 50  0001 C CNN "Date Created"
-F 16 "6/16/2020" H 10250 6000 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10350 6100 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 10450 6200 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 10550 6300 50  0001 C CNN "Mounting"
-F 20 "14" H 10650 6400 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 10750 6500 50  0001 C CNN "Status"
-F 22 "*" H 10850 6600 50  0001 C CNN "Tolerance"
-F 23 "RJ45" H 10950 6700 50  0001 C CNN "Type"
-F 24 "*" H 11050 6800 50  0001 C CNN "Voltage"
-F 25 "*" H 11150 6950 50  0001 C CNN "Package"
-F 26 "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger" H 11550 7350 50  0001 C CNN "Description"
-F 27 "RJ45 NO MAG" H 11350 7150 50  0001 C CNN "_Value_"
-F 28 "*" H 11450 7250 50  0001 C CNN "Management_ID"
-	1    9050 4650
+P 9050 5550
+F 0 "T18" H 9250 5715 50  0000 C CNN
+F 1 "RJHSE-5381" H 9250 5624 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:AMPHENOL_RJHSE-5381" H 8850 5550 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjhse538x.pdf" H 8950 5650 50  0001 C CNN
+F 4 "1.51000" H 9150 5800 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.83700" H 9250 5900 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.80600" H 9350 6000 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 9450 6100 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 9550 6200 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Amphenol ICC (Commercial Products)" H 9650 6300 50  0001 C CNN "MFR"
+F 10 "RJHSE-5381" H 9750 6400 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 9850 6500 50  0001 C CNN "Vendor"
+F 12 "RJHSE-5381-ND" H 9950 6600 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 10050 6700 50  0001 C CNN "Designer"
+F 14 "13.46mm" H 10150 6800 50  0001 C CNN "Height"
+F 15 "6/16/2020" H 11250 7900 50  0001 C CNN "Date Created"
+F 16 "6/16/2020" H 10250 6900 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 10350 7000 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 10450 7100 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 10550 7200 50  0001 C CNN "Mounting"
+F 20 "14" H 10650 7300 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 10750 7400 50  0001 C CNN "Status"
+F 22 "*" H 10850 7500 50  0001 C CNN "Tolerance"
+F 23 "RJ45" H 10950 7600 50  0001 C CNN "Type"
+F 24 "*" H 11050 7700 50  0001 C CNN "Voltage"
+F 25 "*" H 11150 7850 50  0001 C CNN "Package"
+F 26 "Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Shielded, EMI Finger" H 11550 8250 50  0001 C CNN "Description"
+F 27 "RJ45 NO MAG" H 11350 8050 50  0001 C CNN "_Value_"
+F 28 "*" H 11450 8150 50  0001 C CNN "Management_ID"
+	1    9050 5550
+	-1   0    0    1   
+$EndComp
+Text HLabel 10600 4750 2    50   Input ~ 0
+RS485_2_LED2
+Text HLabel 10600 5350 2    50   Input ~ 0
+RS485_2_LED1
+Wire Wire Line
+	9850 4750 10600 4750
+Wire Wire Line
+	9850 5350 10600 5350
+$Comp
+L power:GND #PWR049
+U 1 1 5F0DF7B7
+P 9350 5450
+F 0 "#PWR049" H 9350 5200 50  0001 C CNN
+F 1 "GND" H 9355 5277 50  0000 C CNN
+F 2 "" H 9350 5450 50  0001 C CNN
+F 3 "" H 9350 5450 50  0001 C CNN
+	1    9350 5450
 	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4850 9150 4850
+Wire Wire Line
+	9350 5450 9350 4850
+Wire Wire Line
+	9150 5450 9350 5450
+Wire Wire Line
+	9450 5350 9150 5350
+Wire Wire Line
+	9450 4750 9150 4750
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R19
+U 1 1 5F0CC964
+P 9650 4750
+F 0 "R19" H 9500 4700 50  0000 C CNN
+F 1 "RC0402FR-071KL" H 9650 4975 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 4750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 4750 50  0001 C CNN
+F 4 "0.10000" H 9750 5000 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 9850 5100 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 9950 5200 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 10050 5300 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 10150 5400 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 10250 5500 50  0001 C CNN "MFR"
+F 10 "RC0402FR-071KL" H 10350 5600 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 10450 5700 50  0001 C CNN "Vendor"
+F 12 "311-1.00KLRTR-ND" H 10550 5800 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 10650 5900 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 10750 6000 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 11850 7100 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 10850 6100 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 10950 6200 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 11050 6300 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 11150 6400 50  0001 C CNN "Mounting"
+F 20 "2" H 11250 6500 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 11350 6600 50  0001 C CNN "Status"
+F 22 "1%" H 11450 6700 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 11550 6800 50  0001 C CNN "Type"
+F 24 "*" H 11650 6900 50  0001 C CNN "Voltage"
+F 25 "0402" H 11750 7050 50  0001 C CNN "Package"
+F 26 "1K" H 9800 4700 50  0000 C CNN "_Value_"
+F 27 "*" H 12050 7350 50  0001 C CNN "Management_ID"
+F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12050 7350 50  0001 C CNN "Description"
+	1    9650 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R18
+U 1 1 5F0CC945
+P 9650 5350
+F 0 "R18" H 9500 5300 50  0000 C CNN
+F 1 "RC0402FR-071KL" H 9650 5575 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 9650 5350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 9650 5350 50  0001 C CNN
+F 4 "0.10000" H 9750 5600 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 9850 5700 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 9950 5800 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 10050 5900 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 10150 6000 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 10250 6100 50  0001 C CNN "MFR"
+F 10 "RC0402FR-071KL" H 10350 6200 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 10450 6300 50  0001 C CNN "Vendor"
+F 12 "311-1.00KLRTR-ND" H 10550 6400 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 10650 6500 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 10750 6600 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 11850 7700 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 10850 6700 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 10950 6800 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 11050 6900 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 11150 7000 50  0001 C CNN "Mounting"
+F 20 "2" H 11250 7100 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 11350 7200 50  0001 C CNN "Status"
+F 22 "1%" H 11450 7300 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 11550 7400 50  0001 C CNN "Type"
+F 24 "*" H 11650 7500 50  0001 C CNN "Voltage"
+F 25 "0402" H 11750 7650 50  0001 C CNN "Package"
+F 26 "1K" H 9800 5300 50  0000 C CNN "_Value_"
+F 27 "*" H 12050 7950 50  0001 C CNN "Management_ID"
+F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 12050 7950 50  0001 C CNN "Description"
+	1    9650 5350
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
