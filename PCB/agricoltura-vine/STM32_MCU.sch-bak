@@ -1376,14 +1376,10 @@ Wire Wire Line
 Connection ~ 7550 4300
 Text HLabel 1200 3850 0    50   Input ~ 0
 UART_SENSE1_TX
-Text HLabel 1200 1950 0    50   Input ~ 0
-RS485_UART_EN1
 Text HLabel 1200 1550 0    50   Input ~ 0
 RS485_UART_TX1
 Text HLabel 1200 1650 0    50   Input ~ 0
 RS485_UART_RX1
-Text HLabel 1200 2050 0    50   Input ~ 0
-RS485_UART_EN2
 Text HLabel 1200 1750 0    50   Input ~ 0
 RS485_UART_TX2
 Text HLabel 1200 1850 0    50   Input ~ 0
@@ -1515,10 +1511,6 @@ Wire Wire Line
 	1200 1750 4800 1750
 Wire Wire Line
 	4800 1850 1200 1850
-Wire Wire Line
-	1200 1950 4800 1950
-Wire Wire Line
-	4800 2050 1200 2050
 Wire Wire Line
 	4800 3950 1200 3950
 Wire Wire Line
@@ -1807,4 +1799,28 @@ Wire Wire Line
 Wire Wire Line
 	5300 5950 5650 5950
 Connection ~ 5650 5950
+Text HLabel 1400 800  0    50   Input ~ 0
+RS485_DE1
+Text HLabel 1200 2150 0    50   Input ~ 0
+RS485_DE2
+Text HLabel 1400 900  0    50   Input ~ 0
+RS485_TERM_EN1
+Text HLabel 1400 1100 0    50   Input ~ 0
+RS485_SL_RATE1
+Text HLabel 1400 1000 0    50   Input ~ 0
+RS485_RE1
+Text HLabel 1200 2250 0    50   Input ~ 0
+RS485_SL_RATE2
+Text HLabel 1200 2050 0    50   Input ~ 0
+RS485_RE2
+Text HLabel 1200 1950 0    50   Input ~ 0
+RS485_TERM_EN2
+Wire Wire Line
+	4800 1950 1200 1950
+Wire Wire Line
+	1200 2050 4800 2050
+Wire Wire Line
+	1200 2150 4800 2150
+Wire Wire Line
+	4800 2250 1200 2250
 $EndSCHEMATC
