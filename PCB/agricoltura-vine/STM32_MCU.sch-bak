@@ -1246,8 +1246,8 @@ $Comp
 L AVR-KiCAD-Lib-Connectors:0675031020 T3
 U 1 1 5EF8842D
 P 9650 2750
-F 0 "T3" H 9900 2915 50  0000 C CNN
-F 1 "0675031020" H 9900 2824 50  0000 C CNN
+F 0 "T3" H 9700 2800 50  0000 C CNN
+F 1 "0675031020" H 9900 2100 50  0000 C CNN
 F 2 "AVR-KiCAD-Lib-Connectors:USB_Mini-B" H 9450 2750 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/675031020_sd.pdf" H 9550 2850 50  0001 C CNN
 F 4 "1.08000" H 9750 3000 50  0001 C CNN "Cost QTY: 1"
@@ -1374,7 +1374,7 @@ Connection ~ 8400 3700
 Wire Wire Line
 	8400 3700 8250 3700
 Connection ~ 7550 4300
-Text HLabel 1200 3850 0    50   Input ~ 0
+Text HLabel 10500 2550 2    50   Input ~ 0
 UART_SENSE1_TX
 Text HLabel 1200 1550 0    50   Input ~ 0
 RS485_UART_TX1
@@ -1511,24 +1511,16 @@ Wire Wire Line
 	1200 1750 4800 1750
 Wire Wire Line
 	4800 1850 1200 1850
-Wire Wire Line
-	4800 3950 1200 3950
-Wire Wire Line
-	4800 3850 1200 3850
-Text HLabel 1200 2450 0    50   Input ~ 0
+Text HLabel 1200 3650 0    50   Input ~ 0
 USW1_EN
-Text HLabel 1200 2550 0    50   Input ~ 0
+Text HLabel 6650 1650 2    50   Input ~ 0
 USW1_S0
-Text HLabel 1200 2350 0    50   Input ~ 0
+Text HLabel 6650 1550 2    50   Input ~ 0
 USW1_S1
-Text HLabel 1200 3950 0    50   Input ~ 0
+Text HLabel 1200 3750 0    50   Input ~ 0
 UART_SENSE1_RX
 Wire Wire Line
-	1200 2350 4800 2350
-Wire Wire Line
-	1200 2450 4800 2450
-Wire Wire Line
-	1200 2550 4800 2550
+	1200 3650 4800 3650
 $Comp
 L AVR-KiCAD-Lib-Capacitors:C0402C104K9PACTU C5
 U 1 1 5F139179
@@ -1799,15 +1791,15 @@ Wire Wire Line
 Wire Wire Line
 	5300 5950 5650 5950
 Connection ~ 5650 5950
-Text HLabel 1400 800  0    50   Input ~ 0
+Text HLabel 1200 3450 0    50   Input ~ 0
 RS485_DE1
 Text HLabel 1200 2150 0    50   Input ~ 0
 RS485_DE2
-Text HLabel 1400 900  0    50   Input ~ 0
+Text HLabel 1200 3250 0    50   Input ~ 0
 RS485_TERM_EN1
-Text HLabel 1400 1100 0    50   Input ~ 0
+Text HLabel 1200 3550 0    50   Input ~ 0
 RS485_SL_RATE1
-Text HLabel 1400 1000 0    50   Input ~ 0
+Text HLabel 1200 3350 0    50   Input ~ 0
 RS485_RE1
 Text HLabel 1200 2250 0    50   Input ~ 0
 RS485_SL_RATE2
@@ -1823,4 +1815,16 @@ Wire Wire Line
 	1200 2150 4800 2150
 Wire Wire Line
 	4800 2250 1200 2250
+Wire Wire Line
+	1200 3350 4800 3350
+Wire Wire Line
+	1200 3450 4800 3450
+Wire Wire Line
+	1200 3550 4800 3550
+Wire Wire Line
+	4800 3250 1200 3250
+Wire Wire Line
+	4800 3750 1200 3750
+Wire Wire Line
+	6650 2550 10500 2550
 $EndSCHEMATC
