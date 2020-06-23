@@ -840,4 +840,36 @@ F 3 "" H 8550 2900 50  0001 C CNN
 	1    8550 2900
 	1    0    0    -1  
 $EndComp
+Text HLabel 1050 4550 0    50   Input ~ 0
+5VGPIO_BD_0
+Text HLabel 1050 4650 0    50   Input ~ 0
+5VGPIO_BD_1
+Text HLabel 1050 4750 0    50   Input ~ 0
+5VGPIO_BD_2
+Text HLabel 1050 4850 0    50   Input ~ 0
+5VGPIO_BD_3
+Text HLabel 1050 4950 0    50   Input ~ 0
+5VGPIO_BD_4
+Text HLabel 1050 5050 0    50   Input ~ 0
+5VGPIO_BD_5
+Text HLabel 1050 5150 0    50   Input ~ 0
+5VGPIO_BD_6
+Text HLabel 1050 5250 0    50   Input ~ 0
+5VGPIO_BD_7
+Wire Wire Line
+	1050 4550 5300 4550
+Wire Wire Line
+	5300 4650 1050 4650
+Wire Wire Line
+	1050 4750 5300 4750
+Wire Wire Line
+	5300 4850 1050 4850
+Wire Wire Line
+	5300 5050 1050 5050
+Wire Wire Line
+	1050 4950 5300 4950
+Wire Wire Line
+	1050 5150 5300 5150
+Wire Wire Line
+	1050 5250 5300 5250
 $EndSCHEMATC
