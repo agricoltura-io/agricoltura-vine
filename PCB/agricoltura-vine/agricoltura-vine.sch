@@ -149,40 +149,4 @@ Wire Wire Line
 	3800 4250 4700 4250
 Wire Wire Line
 	6650 4450 7350 4450
-$Comp
-L AVR-KiCAD-Lib-Mech-Relays-Contactors:G5LE-14_DC5 K1
-U 1 1 5F0092A7
-P 5150 6600
-F 0 "K1" H 5350 6765 50  0000 C CNN
-F 1 "G5LE-14_DC5" H 5350 6674 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Relays-Contactors:G5LE-14_DC5" H 5150 6600 50  0001 C CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5le.pdf" H 5150 6600 50  0001 C CNN
-F 4 "1.44000" H 5250 6850 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.84028" H 5350 6950 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 5450 7050 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.81027" H 5550 7150 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 5650 7250 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Omron Electronics Inc-EMC Div" H 5750 7350 50  0001 C CNN "MFR"
-F 10 "G5LE-14 DC5" H 5850 7450 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 5950 7550 50  0001 C CNN "Vendor"
-F 12 "Z1011-ND" H 6050 7650 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 6150 7750 50  0001 C CNN "Designer"
-F 14 "19mm" H 6250 7850 50  0001 C CNN "Height"
-F 15 "6/23/2020" H 7350 8950 50  0001 C CNN "Date Created"
-F 16 "6/23/2020" H 6350 7950 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 6450 8050 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 6550 8150 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 6650 8250 50  0001 C CNN "Mounting"
-F 20 "5" H 6750 8350 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 6850 8450 50  0001 C CNN "Status"
-F 22 "*" H 6950 8550 50  0001 C CNN "Tolerance"
-F 23 "Relay-Contactor" H 7050 8650 50  0001 C CNN "Type"
-F 24 "5VDC Coil, 250VAC, 125VDC - Max" H 7150 8750 50  0001 C CNN "Voltage"
-F 25 "*" H 7250 8900 50  0001 C CNN "Package"
-F 26 "General Purpose Relay SPDT (1 Form C) 5VDC Coil Through Hole" H 7550 9200 50  0001 C CNN "Description"
-F 27 "G5LE-14 DC5" H 7450 9100 50  0001 C CNN "_Value_"
-F 28 "*" H 7550 9200 50  0001 C CNN "Management_ID"
-	1    5150 6600
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

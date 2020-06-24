@@ -896,42 +896,6 @@ F 28 "Plated M2 Screw Hole" H 5150 9100 50  0001 C CNN "Description"
 	1    2750 6500
 	1    0    0    -1  
 $EndComp
-$Comp
-L AVR-KiCAD-Lib-Connectors:1757242 T16
-U 1 1 5EF359F8
-P 1200 3300
-F 0 "T16" H 1167 3365 50  0000 C CNN
-F 1 "1757242" H 1167 3274 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:PhoenixContact_MSTBA-G_02x5.08mm_Angled" H 1000 3300 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1757242.pdf" H 1100 3400 50  0001 C CNN
-F 4 "0.64000" H 1300 3550 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.45518" H 1400 3650 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.43375" H 1500 3750 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.40698" H 1600 3850 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 1700 3950 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Phoenix Contact" H 1800 4050 50  0001 C CNN "MFR"
-F 10 "1757242" H 1900 4150 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 2000 4250 50  0001 C CNN "Vendor"
-F 12 "277-1106-ND" H 2100 4350 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 2200 4450 50  0001 C CNN "Designer"
-F 14 "12mm" H 2300 4550 50  0001 C CNN "Height"
-F 15 "6/20/2020" H 3400 5650 50  0001 C CNN "Date Created"
-F 16 "6/20/2020" H 2400 4650 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 2500 4750 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 2600 4850 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 2700 4950 50  0001 C CNN "Mounting"
-F 20 "2" H 2800 5050 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 2900 5150 50  0001 C CNN "Status"
-F 22 "*" H 3000 5250 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 3100 5350 50  0001 C CNN "Type"
-F 24 "300V" H 3200 5450 50  0001 C CNN "Voltage"
-F 25 "*" H 3300 5600 50  0001 C CNN "Package"
-F 26 "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.200\" (5.08mm) 90°, Right Angle  Through Hole" H 3700 6000 50  0001 C CNN "Description"
-F 27 "1757242" H 3500 5800 50  0001 C CNN "_Value_"
-F 28 "*" H 3600 5900 50  0001 C CNN "Management_ID"
-	1    1200 3300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3050 4350 3050
 Wire Wire Line
@@ -1081,4 +1045,40 @@ Connection ~ 9700 5000
 Wire Wire Line
 	9700 3100 10200 3100
 Connection ~ 9700 3100
+$Comp
+L AVR-KiCAD-Lib-Connectors:0395121002 T16
+U 1 1 5F06CA83
+P 1200 3500
+F 0 "T16" H 1192 3765 50  0000 C CNN
+F 1 "0395121002" H 1192 3674 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:0395121002" H 250 4550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/395121002_sd.pdf" H 1100 3600 50  0001 C CNN
+F 4 "0.90000" H 1300 3750 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.30600" H 1400 3850 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1500 3950 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.23940" H 1600 4050 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 1700 4150 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Molex" H 1800 4250 50  0001 C CNN "MFR"
+F 10 "0395121002" H 1900 4350 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2000 4450 50  0001 C CNN "Vendor"
+F 12 "WM23198-ND" H 2100 4550 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2200 4650 50  0001 C CNN "Designer"
+F 14 "6.86mm" H 2300 4750 50  0001 C CNN "Height"
+F 15 "6/23/2020" H 3400 5850 50  0001 C CNN "Date Created"
+F 16 "6/23/2020" H 2400 4850 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 2500 4950 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 2600 5050 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 2700 5150 50  0001 C CNN "Mounting"
+F 20 "2" H 2800 5250 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 2900 5350 50  0001 C CNN "Status"
+F 22 "*" H 3000 5450 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 3100 5550 50  0001 C CNN "Type"
+F 24 "300V" H 3200 5650 50  0001 C CNN "Voltage"
+F 25 "*" H 3300 5800 50  0001 C CNN "Package"
+F 26 "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150\" (3.81mm) 90°, Right Angle  Through Hole" H 3700 6200 50  0001 C CNN "Description"
+F 27 "0395121002" H 3500 6000 50  0001 C CNN "_Value_"
+F 28 "*" H 3600 6100 50  0001 C CNN "Management_ID"
+	1    1200 3500
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
