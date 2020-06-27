@@ -66,12 +66,6 @@ F 3 "" H 2450 4050 50  0001 C CNN
 	1    2450 4050
 	1    0    0    -1  
 $EndComp
-Text HLabel 1450 2450 0    50   Input ~ 0
-I2C_SENSE1_SDA
-Text HLabel 1450 2550 0    50   Input ~ 0
-I2C_SENSE1_SCL
-Text HLabel 1450 3050 0    50   Input ~ 0
-I2C_MUX1_RESET
 Wire Wire Line
 	3100 2450 1450 2450
 Wire Wire Line
@@ -737,4 +731,10 @@ Wire Wire Line
 Connection ~ 10300 5700
 Wire Wire Line
 	10300 5700 10300 6100
+Text HLabel 1450 2450 0    50   Input ~ 0
+I2C_SENSE1_SDA
+Text HLabel 1450 2550 0    50   Input ~ 0
+I2C_SENSE1_SCL
+Text HLabel 1450 3050 0    50   Input ~ 0
+I2C_MUX1_RESET
 $EndSCHEMATC

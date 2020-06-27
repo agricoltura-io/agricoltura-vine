@@ -1511,11 +1511,11 @@ Wire Wire Line
 	1200 1750 4800 1750
 Wire Wire Line
 	4800 1850 1200 1850
-Text HLabel 6650 1750 2    50   Input ~ 0
+Text HLabel 6650 1550 2    50   Input ~ 0
 USW1_EN
 Text HLabel 6650 1650 2    50   Input ~ 0
 USW1_S0
-Text HLabel 6650 1550 2    50   Input ~ 0
+Text HLabel 6650 1750 2    50   Input ~ 0
 USW1_S1
 Text HLabel 1200 3750 0    50   Input ~ 0
 UART_SENSE1_RX
@@ -1825,20 +1825,6 @@ Wire Wire Line
 	4800 3750 1200 3750
 Wire Wire Line
 	6650 2550 10500 2550
-Text HLabel 2100 2400 0    50   Input ~ 0
-5VGPIO_BD_0
-Text HLabel 2100 2500 0    50   Input ~ 0
-5VGPIO_BD_1
-Text HLabel 2100 2600 0    50   Input ~ 0
-5VGPIO_BD_2
-Text HLabel 2100 2700 0    50   Input ~ 0
-5VGPIO_BD_3
-Text HLabel 2100 2800 0    50   Input ~ 0
-5VGPIO_BD_4
-Text HLabel 2100 2900 0    50   Input ~ 0
-5VGPIO_BD_5
-Text HLabel 2100 3000 0    50   Input ~ 0
-5VGPIO_BD_6
 Text HLabel 1200 3850 0    50   Input ~ 0
 5VGPIO_BD_7
 Wire Wire Line
