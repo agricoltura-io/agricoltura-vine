@@ -186,16 +186,16 @@ $EndComp
 Wire Wire Line
 	2850 4350 2850 4450
 Wire Wire Line
-	2850 3600 1300 3600
+	2850 3600 1200 3600
 Wire Wire Line
-	2850 3500 1250 3500
+	2850 3500 1200 3500
 Text Label 1500 3600 0    50   ~ 0
 UART_SENSE1_TX
 Text Label 1500 3500 0    50   ~ 0
 UART_SENSE1_RX
-Text HLabel 1300 3600 0    50   Input ~ 0
+Text HLabel 1200 3600 0    50   Input ~ 0
 UART_SENSE1_TX
-Text HLabel 1250 3500 0    50   Input ~ 0
+Text HLabel 1200 3500 0    50   Input ~ 0
 UART_SENSE1_RX
 $Comp
 L power:+3V3 #PWR?
@@ -210,18 +210,18 @@ F 3 "" H 10450 2150 50  0001 C CNN
 	1    10450 2150
 	1    0    0    -1  
 $EndComp
-Text HLabel 1100 4000 0    50   Input ~ 0
+Text HLabel 1200 4000 0    50   Input ~ 0
 USW1_S1
-Text HLabel 1100 3900 0    50   Input ~ 0
+Text HLabel 1200 3900 0    50   Input ~ 0
 USW1_S0
-Text HLabel 1100 3800 0    50   Input ~ 0
+Text HLabel 1200 3800 0    50   Input ~ 0
 USW1_EN
 Wire Wire Line
-	2850 3800 1100 3800
+	2850 3800 1200 3800
 Wire Wire Line
-	1100 3900 2850 3900
+	1200 3900 2850 3900
 Wire Wire Line
-	2850 4000 1100 4000
+	2850 4000 1200 4000
 Wire Wire Line
 	10350 4700 10600 4700
 Wire Wire Line
@@ -286,17 +286,17 @@ Wire Wire Line
 Wire Wire Line
 	7050 3800 10600 3800
 Wire Wire Line
-	9750 4250 9750 4400
+	7050 4250 7050 4400
 Wire Wire Line
-	9750 4400 10600 4400
+	7050 4400 10600 4400
 Wire Wire Line
-	3700 4250 9750 4250
+	3700 4250 7050 4250
 Wire Wire Line
-	10600 4500 9550 4500
+	10600 4500 6950 4500
 Wire Wire Line
-	9550 4500 9550 4350
+	6950 4500 6950 4350
 Wire Wire Line
-	3700 4350 9550 4350
+	3700 4350 6950 4350
 Wire Wire Line
 	3700 4100 7050 4100
 $Comp
@@ -499,4 +499,59 @@ Wire Wire Line
 Wire Wire Line
 	10350 2200 10350 2600
 Connection ~ 10350 2600
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-071KL R?
+U 1 1 5F080A60
+P 2450 3150
+AR Path="/5EE82896/5F080A60" Ref="R?"  Part="1" 
+AR Path="/5EE82702/5F080A60" Ref="R18"  Part="1" 
+F 0 "R18" V 2404 3237 50  0000 L CNN
+F 1 "RC0402FR-071KL" V 2450 3238 50  0001 L CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 2450 3150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2450 3150 50  0001 C CNN
+F 4 "0.10000" H 2550 3400 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 2650 3500 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 2750 3600 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 2850 3700 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 2950 3800 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 3050 3900 50  0001 C CNN "MFR"
+F 10 "RC0402FR-071KL" H 3150 4000 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3250 4100 50  0001 C CNN "Vendor"
+F 12 "311-1.00KLRTR-ND" H 3350 4200 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3450 4300 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 3550 4400 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 4650 5500 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 3650 4500 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 3750 4600 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 3850 4700 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 3950 4800 50  0001 C CNN "Mounting"
+F 20 "2" H 4050 4900 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4150 5000 50  0001 C CNN "Status"
+F 22 "1%" H 4250 5100 50  0001 C CNN "Tolerance"
+F 23 "Thick Film Resistor" H 4350 5200 50  0001 C CNN "Type"
+F 24 "*" H 4450 5300 50  0001 C CNN "Voltage"
+F 25 "0402" H 4550 5450 50  0001 C CNN "Package"
+F 26 "1K" V 2495 3237 50  0000 L CNN "_Value_"
+F 27 "*" H 4850 5750 50  0001 C CNN "Management_ID"
+F 28 " kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 4850 5750 50  0001 C CNN "Description"
+	1    2450 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F084046
+P 2450 2800
+AR Path="/5EE82896/5F084046" Ref="#PWR?"  Part="1" 
+AR Path="/5EE82702/5F084046" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 2450 2650 50  0001 C CNN
+F 1 "+3V3" H 2465 2973 50  0000 C CNN
+F 2 "" H 2450 2800 50  0001 C CNN
+F 3 "" H 2450 2800 50  0001 C CNN
+	1    2450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2800 2450 2950
+Wire Wire Line
+	2450 3350 2850 3350
 $EndSCHEMATC
