@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 149)
+    (drawings 148)
     (tracks 1453)
     (zones 0)
     (modules 114)
@@ -5474,9 +5474,6 @@
     )
   )
 
-  (gr_text "GPIO 5V AUX" (at 172.1 95.8) (layer F.SilkS) (tstamp 5EFCADAE)
-    (effects (font (size 1 1) (thickness 0.2)))
-  )
   (dimension 45 (width 0.15) (layer Dwgs.User)
     (gr_text "45.000 mm" (at 84.6 87.5 270) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
