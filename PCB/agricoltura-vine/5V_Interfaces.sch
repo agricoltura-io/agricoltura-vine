@@ -1339,4 +1339,12 @@ Text Label 6700 1550 0    50   ~ 0
 DRV1
 Text Label 6750 2850 0    50   ~ 0
 DRV2
+Wire Wire Line
+	6800 4500 7450 4500
+Wire Wire Line
+	6800 5000 7450 5000
+Text Label 6900 4500 0    50   ~ 0
+DRV1
+Text Label 6950 5000 0    50   ~ 0
+DRV2
 $EndSCHEMATC
