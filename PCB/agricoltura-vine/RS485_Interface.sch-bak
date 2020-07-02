@@ -862,4 +862,12 @@ F 3 "" H 2950 6150 50  0001 C CNN
 	1    2950 6150
 	-1   0    0    -1  
 $EndComp
+Text Label 3450 1650 0    50   ~ 0
+RS485_UART_DE1
+Text Label 3450 1750 0    50   ~ 0
+RS485_UART_RE1
+Text Label 3450 4850 0    50   ~ 0
+RS485_UART_DE2
+Text Label 3450 4950 0    50   ~ 0
+RS485_UART_RE2
 $EndSCHEMATC
