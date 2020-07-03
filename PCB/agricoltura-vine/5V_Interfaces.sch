@@ -362,42 +362,6 @@ $EndComp
 Wire Wire Line
 	9050 6000 9050 6200
 $Comp
-L AVR-KiCAD-Lib-Connectors:0395121006 T22
-U 1 1 5F0AD388
-P 1250 3250
-F 0 "T22" H 1250 3400 50  0000 L CNN
-F 1 "0395121006" H 1150 2600 50  0000 L CNN
-F 2 "AVR-KiCAD-Lib-Connectors:0395121006" H 300 4300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/395121002_sd.pdf" H 1150 3350 50  0001 C CNN
-F 4 "1.79000" H 1350 3500 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.79750" H 1450 3600 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 1550 3700 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.70125" H 1650 3800 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 1750 3900 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Molex" H 1850 4000 50  0001 C CNN "MFR"
-F 10 "0395121006" H 1950 4100 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 2050 4200 50  0001 C CNN "Vendor"
-F 12 "WM20088-ND" H 2150 4300 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 2250 4400 50  0001 C CNN "Designer"
-F 14 "6.86mm" H 2350 4500 50  0001 C CNN "Height"
-F 15 "6/23/2020" H 3450 5600 50  0001 C CNN "Date Created"
-F 16 "6/23/2020" H 2450 4600 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 2550 4700 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 2650 4800 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 2750 4900 50  0001 C CNN "Mounting"
-F 20 "6" H 2850 5000 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 2950 5100 50  0001 C CNN "Status"
-F 22 "*" H 3050 5200 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 3150 5300 50  0001 C CNN "Type"
-F 24 "300V" H 3250 5400 50  0001 C CNN "Voltage"
-F 25 "*" H 3350 5550 50  0001 C CNN "Package"
-F 26 "6 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150\" (3.81mm) 90°, Right Angle  Through Hole" H 3750 5950 50  0001 C CNN "Description"
-F 27 "0395121006" H 3550 5750 50  0001 C CNN "_Value_"
-F 28 "*" H 3650 5850 50  0001 C CNN "Management_ID"
-	1    1250 3250
-	-1   0    0    -1  
-$EndComp
-$Comp
 L AVR-KiCAD-Lib-Mech-Relays-Contactors:G5LE-14_DC5 K2
 U 1 1 5F0A654C
 P 2300 3550
@@ -486,23 +450,17 @@ Wire Wire Line
 Wire Wire Line
 	2000 2350 1650 2350
 Wire Wire Line
-	1650 2350 1650 3350
+	1650 2350 1650 3100
 Wire Wire Line
-	1650 3350 1450 3350
-Wire Wire Line
-	1450 3250 2050 3250
-Wire Wire Line
-	2050 3250 2050 3000
-Wire Wire Line
-	2050 3000 3000 3000
+	1650 3100 1450 3100
 Wire Wire Line
 	3000 3000 3000 2750
 Wire Wire Line
 	2000 2750 1750 2750
 Wire Wire Line
-	1750 2750 1750 3450
+	1750 2750 1750 3200
 Wire Wire Line
-	1750 3450 1450 3450
+	1750 3200 1450 3200
 Wire Wire Line
 	9050 5900 9050 6000
 Connection ~ 9050 6000
@@ -1448,4 +1406,78 @@ Text Label 7000 5200 0    50   ~ 0
 P07
 Wire Wire Line
 	2600 6000 2600 6700
+$Comp
+L AVR-KiCAD-Lib-Connectors:0395121003 T21
+U 1 1 5EFF0D11
+P 1250 3000
+F 0 "T21" H 1400 3150 50  0000 C CNN
+F 1 "0395121003" H 1000 2700 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:0395121003" H 300 4050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/395121002_sd.pdf" H 1150 3100 50  0001 C CNN
+F 4 "1.03000" H 1350 3250 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.43200" H 1450 3350 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1550 3450 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.35100" H 1650 3550 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 1750 3650 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Molex" H 1850 3750 50  0001 C CNN "MFR"
+F 10 "0395121003" H 1950 3850 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2050 3950 50  0001 C CNN "Vendor"
+F 12 "WM20086-ND" H 2150 4050 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2250 4150 50  0001 C CNN "Designer"
+F 14 "6.86mm" H 2350 4250 50  0001 C CNN "Height"
+F 15 "7/2/2020" H 3450 5350 50  0001 C CNN "Date Created"
+F 16 "7/2/2020" H 2450 4350 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 2550 4450 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 2650 4550 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 2750 4650 50  0001 C CNN "Mounting"
+F 20 "3" H 2850 4750 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 2950 4850 50  0001 C CNN "Status"
+F 22 "*" H 3050 4950 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 3150 5050 50  0001 C CNN "Type"
+F 24 "300V" H 3250 5150 50  0001 C CNN "Voltage"
+F 25 "*" H 3350 5300 50  0001 C CNN "Package"
+F 26 "3 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150\" (3.81mm) 90°, Right Angle  Through Hole" H 3750 5700 50  0001 C CNN "Description"
+F 27 "0395121003" H 3550 5500 50  0001 C CNN "_Value_"
+F 28 "*" H 3650 5600 50  0001 C CNN "Management_ID"
+	1    1250 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3000 3000 3000
+$Comp
+L AVR-KiCAD-Lib-Connectors:0395121003 T22
+U 1 1 5F0012A2
+P 1250 3550
+F 0 "T22" H 1450 3700 50  0000 C CNN
+F 1 "0395121003" H 1400 3200 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:0395121003" H 300 4600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/395121002_sd.pdf" H 1150 3650 50  0001 C CNN
+F 4 "1.03000" H 1350 3800 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.43200" H 1450 3900 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 1550 4000 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.35100" H 1650 4100 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 1750 4200 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Molex" H 1850 4300 50  0001 C CNN "MFR"
+F 10 "0395121003" H 1950 4400 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 2050 4500 50  0001 C CNN "Vendor"
+F 12 "WM20086-ND" H 2150 4600 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 2250 4700 50  0001 C CNN "Designer"
+F 14 "6.86mm" H 2350 4800 50  0001 C CNN "Height"
+F 15 "7/2/2020" H 3450 5900 50  0001 C CNN "Date Created"
+F 16 "7/2/2020" H 2450 4900 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 2550 5000 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 2650 5100 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 2750 5200 50  0001 C CNN "Mounting"
+F 20 "3" H 2850 5300 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 2950 5400 50  0001 C CNN "Status"
+F 22 "*" H 3050 5500 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 3150 5600 50  0001 C CNN "Type"
+F 24 "300V" H 3250 5700 50  0001 C CNN "Voltage"
+F 25 "*" H 3350 5850 50  0001 C CNN "Package"
+F 26 "3 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150\" (3.81mm) 90°, Right Angle  Through Hole" H 3750 6250 50  0001 C CNN "Description"
+F 27 "0395121003" H 3550 6050 50  0001 C CNN "_Value_"
+F 28 "*" H 3650 6150 50  0001 C CNN "Management_ID"
+	1    1250 3550
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
