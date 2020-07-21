@@ -582,7 +582,7 @@ F 3 "" H 4250 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 7000 4250 6500
+	4250 7000 4250 6850
 Connection ~ 4250 6500
 $Comp
 L power:GND #PWR02
@@ -883,37 +883,37 @@ $EndComp
 $Comp
 L AVR-KiCAD-Lib-Capacitors:CL05C090CB5NNNC C11
 U 1 1 5EF457E3
-P 6750 4850
-F 0 "C11" V 6850 4750 50  0000 C CNN
-F 1 "CL05C090CB5NNNC" H 6800 5050 50  0001 C CNN
-F 2 "growbox-KiCAD-Capacitors:C0402" H 6550 4850 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C090CB5NNNC.jsp" H 6650 4950 50  0001 C CNN
-F 4 "0.10000" H 6850 5100 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.01352" H 6950 5200 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.01229" H 7050 5300 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.01131" H 7150 5400 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.00899" H 7250 5500 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Samsung Electro-Mechanics" H 7350 5600 50  0001 C CNN "MFR"
-F 10 "CL05C090CB5NNNC" H 7450 5700 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 7550 5800 50  0001 C CNN "Vendor"
-F 12 "1276-1616-2-ND" H 7650 5900 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 7750 6000 50  0001 C CNN "Designer"
-F 14 "0.55mm" H 7850 6100 50  0001 C CNN "Height"
-F 15 "6/16/2020" H 8950 7200 50  0001 C CNN "Date Created"
-F 16 "6/16/2020" H 7950 6200 50  0001 C CNN "Date Modified"
-F 17 "Yers" H 8050 6300 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 8150 6400 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 8250 6500 50  0001 C CNN "Mounting"
-F 20 "2" H 8350 6600 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 8450 6700 50  0001 C CNN "Status"
-F 22 " ±0.25pF" H 8550 6800 50  0001 C CNN "Tolerance"
-F 23 "Ceramic Cap" H 8650 6900 50  0001 C CNN "Type"
-F 24 "50V" H 8750 7000 50  0001 C CNN "Voltage"
-F 25 "0402" H 8850 7150 50  0001 C CNN "Package"
-F 26 "9pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" H 9250 7550 50  0001 C CNN "Description"
-F 27 "9pF" V 6700 4750 50  0000 C CNN "_Value_"
-F 28 "*" H 9150 7450 50  0001 C CNN "Management_ID"
-	1    6750 4850
+P 6650 4850
+F 0 "C11" V 6750 4750 50  0000 C CNN
+F 1 "CL05C090CB5NNNC" H 6700 5050 50  0001 C CNN
+F 2 "growbox-KiCAD-Capacitors:C0402" H 6450 4850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C090CB5NNNC.jsp" H 6550 4950 50  0001 C CNN
+F 4 "0.10000" H 6750 5100 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.01352" H 6850 5200 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.01229" H 6950 5300 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.01131" H 7050 5400 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00899" H 7150 5500 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Samsung Electro-Mechanics" H 7250 5600 50  0001 C CNN "MFR"
+F 10 "CL05C090CB5NNNC" H 7350 5700 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 7450 5800 50  0001 C CNN "Vendor"
+F 12 "1276-1616-2-ND" H 7550 5900 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 7650 6000 50  0001 C CNN "Designer"
+F 14 "0.55mm" H 7750 6100 50  0001 C CNN "Height"
+F 15 "6/16/2020" H 8850 7200 50  0001 C CNN "Date Created"
+F 16 "6/16/2020" H 7850 6200 50  0001 C CNN "Date Modified"
+F 17 "Yers" H 7950 6300 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 8050 6400 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 8150 6500 50  0001 C CNN "Mounting"
+F 20 "2" H 8250 6600 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 8350 6700 50  0001 C CNN "Status"
+F 22 " ±0.25pF" H 8450 6800 50  0001 C CNN "Tolerance"
+F 23 "Ceramic Cap" H 8550 6900 50  0001 C CNN "Type"
+F 24 "50V" H 8650 7000 50  0001 C CNN "Voltage"
+F 25 "0402" H 8750 7150 50  0001 C CNN "Package"
+F 26 "9pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" H 9150 7550 50  0001 C CNN "Description"
+F 27 "9pF" V 6600 4750 50  0000 C CNN "_Value_"
+F 28 "*" H 9050 7450 50  0001 C CNN "Management_ID"
+	1    6650 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1050,8 +1050,6 @@ F 28 "*" H 9650 7450 50  0001 C CNN "Management_ID"
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7250 4600
-Wire Wire Line
-	6650 5050 6750 5050
 $Comp
 L power:GND #PWR011
 U 1 1 5EF5AE0D
@@ -1239,7 +1237,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 5050 7250 5050
 Connection ~ 7550 4750
-Connection ~ 7250 5050
 $Comp
 L AVR-KiCAD-Lib-Connectors:0675031020 T3
 U 1 1 5EF8842D
@@ -1277,9 +1274,9 @@ F 28 "*" H 12050 5350 50  0001 C CNN "Management_ID"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 3050 8750 3050
+	6650 3050 7800 3050
 Wire Wire Line
-	6650 2950 8600 2950
+	6650 2950 7100 2950
 Wire Wire Line
 	9450 2850 8450 2850
 Wire Wire Line
@@ -1339,7 +1336,7 @@ Wire Wire Line
 	8450 3300 8450 2850
 Connection ~ 8450 2850
 Wire Wire Line
-	8450 2850 6650 2850
+	8450 2850 8150 2850
 Wire Wire Line
 	8600 3300 8600 2950
 Connection ~ 8600 2950
@@ -1778,10 +1775,10 @@ Wire Wire Line
 	6650 2550 10500 2550
 Text HLabel 1200 2350 0    50   Input ~ 0
 IO_SCL
-Text HLabel 6950 3350 2    50   Input ~ 0
+Text HLabel 7200 3350 2    50   Input ~ 0
 IO_SDA
 Wire Wire Line
-	6650 3350 6950 3350
+	6650 3350 7200 3350
 Wire Wire Line
 	1200 2350 4800 2350
 Wire Wire Line
@@ -1798,9 +1795,6 @@ Wire Wire Line
 	7950 1650 6650 1650
 Wire Wire Line
 	6650 1750 7950 1750
-Connection ~ 6750 5050
-Wire Wire Line
-	6750 5050 7250 5050
 Connection ~ 5350 5950
 Wire Wire Line
 	5950 5500 6100 5500
@@ -2069,4 +2063,186 @@ Wire Wire Line
 Connection ~ 6300 7250
 Wire Wire Line
 	6300 7250 6550 7250
+Connection ~ 6650 4600
+Wire Wire Line
+	7250 5050 6650 5050
+Connection ~ 7250 5050
+Connection ~ 6650 5050
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-0710KL R25
+U 1 1 5F189C18
+P 7950 2850
+F 0 "R25" H 7750 2800 50  0000 C CNN
+F 1 "RC0402FR-0710KL" H 7950 3075 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 7950 2850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7950 2850 50  0001 C CNN
+F 4 "0.10000" H 8050 3100 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 8150 3200 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 8250 3300 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 8350 3400 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 8450 3500 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 8550 3600 50  0001 C CNN "MFR"
+F 10 "RC0402FR-0710KL" H 8650 3700 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 8750 3800 50  0001 C CNN "Vendor"
+F 12 "311-10.0KLRCT-ND" H 8850 3900 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 8950 4000 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 9050 4100 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 10150 5200 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 9150 4200 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 9250 4300 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 9350 4400 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 9450 4500 50  0001 C CNN "Mounting"
+F 20 "2" H 9550 4600 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 9650 4700 50  0001 C CNN "Status"
+F 22 "1%" H 9750 4800 50  0001 C CNN "Tolerance"
+F 23 "Thick FIlm Resistor" H 9850 4900 50  0001 C CNN "Type"
+F 24 "*" H 9950 5000 50  0001 C CNN "Voltage"
+F 25 "0402" H 10050 5150 50  0001 C CNN "Package"
+F 26 "10K" H 8150 2800 50  0000 C CNN "_Value_"
+F 27 "*" H 10350 5450 50  0001 C CNN "Management_ID"
+F 28 "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 10350 5450 50  0001 C CNN "Description"
+	1    7950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-0722RL R24
+U 1 1 5F18EA50
+P 7300 2950
+F 0 "R24" H 7100 2900 50  0000 C CNN
+F 1 "RC0402FR-0722RL" H 7300 3175 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 7300 2950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7300 2950 50  0001 C CNN
+F 4 "0.10000" H 7400 3200 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 7500 3300 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 7600 3400 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 7700 3500 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 7800 3600 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 7900 3700 50  0001 C CNN "MFR"
+F 10 "RC0402FR-0722RL" H 8000 3800 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 8100 3900 50  0001 C CNN "Vendor"
+F 12 "311-22.0LRTR-ND" H 8200 4000 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 8300 4100 50  0001 C CNN "Designer"
+F 14 ".4mm" H 8400 4200 50  0001 C CNN "Height"
+F 15 "7/11/2020" H 9500 5300 50  0001 C CNN "Date Created"
+F 16 "7/11/2020" H 8500 4300 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 8600 4400 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 8700 4500 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 8800 4600 50  0001 C CNN "Mounting"
+F 20 "2" H 8900 4700 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 9000 4800 50  0001 C CNN "Status"
+F 22 "1%" H 9100 4900 50  0001 C CNN "Tolerance"
+F 23 "Resistor" H 9200 5000 50  0001 C CNN "Type"
+F 24 "*" H 9300 5100 50  0001 C CNN "Voltage"
+F 25 "0402" H 9400 5250 50  0001 C CNN "Package"
+F 26 "22R" H 7450 2900 50  0000 C CNN "_Value_"
+F 27 "22 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 9700 5550 50  0001 C CNN "Description"
+F 28 "*" H 9700 5550 50  0001 C CNN "Management_ID"
+	1    7300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2950 8600 2950
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-0722RL R26
+U 1 1 5F19605C
+P 8000 3050
+F 0 "R26" H 7750 3000 50  0000 C CNN
+F 1 "RC0402FR-0722RL" H 8000 3275 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 8000 3050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8000 3050 50  0001 C CNN
+F 4 "0.10000" H 8100 3300 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 8200 3400 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 8300 3500 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 8400 3600 50  0001 C CNN "Cost QTY: 5000"
+F 8 "0.00163" H 8500 3700 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 8600 3800 50  0001 C CNN "MFR"
+F 10 "RC0402FR-0722RL" H 8700 3900 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 8800 4000 50  0001 C CNN "Vendor"
+F 12 "311-22.0LRTR-ND" H 8900 4100 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 9000 4200 50  0001 C CNN "Designer"
+F 14 ".4mm" H 9100 4300 50  0001 C CNN "Height"
+F 15 "7/11/2020" H 10200 5400 50  0001 C CNN "Date Created"
+F 16 "7/11/2020" H 9200 4400 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 9300 4500 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 9400 4600 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 9500 4700 50  0001 C CNN "Mounting"
+F 20 "2" H 9600 4800 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 9700 4900 50  0001 C CNN "Status"
+F 22 "1%" H 9800 5000 50  0001 C CNN "Tolerance"
+F 23 "Resistor" H 9900 5100 50  0001 C CNN "Type"
+F 24 "*" H 10000 5200 50  0001 C CNN "Voltage"
+F 25 "0402" H 10100 5350 50  0001 C CNN "Package"
+F 26 "22R" H 8250 3000 50  0000 C CNN "_Value_"
+F 27 "22 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 10400 5650 50  0001 C CNN "Description"
+F 28 "*" H 10400 5650 50  0001 C CNN "Management_ID"
+	1    8000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3050 8750 3050
+Wire Wire Line
+	7750 2850 6650 2850
+Text Label 6650 2850 0    50   ~ 0
+MCU_VBUS
+Text Label 6650 3050 0    50   ~ 0
+MCU_D+
+Text Label 6650 2950 0    50   ~ 0
+MCU_D-
+Wire Wire Line
+	4250 5500 4750 5500
+Wire Wire Line
+	4750 5900 4750 6850
+Wire Wire Line
+	4750 6850 4250 6850
+Connection ~ 4250 6850
+Wire Wire Line
+	4250 6850 4250 6500
+$Comp
+L AVR-KiCAD-Lib-Resistors:RC0402FR-0710KL R27
+U 1 1 5F1DAEB2
+P 4750 5700
+F 0 "R27" V 4700 5500 50  0000 C CNN
+F 1 "RC0402FR-0710KL" H 4750 5925 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Resistors:R0402" H 4750 5700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4750 5700 50  0001 C CNN
+F 4 "0.10000" H 4850 5950 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.00289" H 4950 6050 50  0001 C CNN "Cost QTY: 1000"
+F 6 "0.00251" H 5050 6150 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.00207" H 5150 6250 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 5250 6350 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Yageo" H 5350 6450 50  0001 C CNN "MFR"
+F 10 "RC0402FR-0710KL" H 5450 6550 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 5550 6650 50  0001 C CNN "Vendor"
+F 12 "311-10.0KLRCT-ND" H 5650 6750 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 5750 6850 50  0001 C CNN "Designer"
+F 14 "0.4mm" H 5850 6950 50  0001 C CNN "Height"
+F 15 "12/11/2019" H 6950 8050 50  0001 C CNN "Date Created"
+F 16 "12/11/2019" H 5950 7050 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 6050 7150 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 6150 7250 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 6250 7350 50  0001 C CNN "Mounting"
+F 20 "2" H 6350 7450 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 6450 7550 50  0001 C CNN "Status"
+F 22 "1%" H 6550 7650 50  0001 C CNN "Tolerance"
+F 23 "Thick FIlm Resistor" H 6650 7750 50  0001 C CNN "Type"
+F 24 "*" H 6750 7850 50  0001 C CNN "Voltage"
+F 25 "0402" H 6850 8000 50  0001 C CNN "Package"
+F 26 "10K" V 4800 5550 50  0000 C CNN "_Value_"
+F 27 "*" H 7150 8300 50  0001 C CNN "Management_ID"
+F 28 "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" H 7150 8300 50  0001 C CNN "Description"
+	1    4750 5700
+	0    1    1    0   
+$EndComp
+Text Label 2050 2350 0    50   ~ 0
+IO_SCL
+Text Label 4950 6650 0    50   ~ 0
+IO_SCL
+Text Label 6800 3350 0    50   ~ 0
+IO_SDA
+Text Label 4950 6750 0    50   ~ 0
+IO_SDA
+Wire Wire Line
+	4850 6750 5250 6750
+Wire Wire Line
+	4850 6650 5250 6650
 $EndSCHEMATC

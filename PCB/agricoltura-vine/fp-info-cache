@@ -1,400 +1,407 @@
-89807857383139
-AVR-KiCAD-Lib-Connectors
-2X6HDR2.54mm
+91753381020439
+AVR-KiCAD-Lib-ICs
+6N138S
 
 
 0
-12
-12
-AVR-KiCAD-Lib-Connectors
-4P-2.0;320110030
-
-
-0
-6
+8
 5
-AVR-KiCAD-Lib-Connectors
-5120
+AVR-KiCAD-Lib-ICs
+8-USON
 
 
 0
-1
-1
-AVR-KiCAD-Lib-Connectors
-284061-5
-
-
-0
-10
-1
-AVR-KiCAD-Lib-Connectors
-796644-4_4x5.00mm
-Generic Phoenix Contact connector footprint for series: MSTB-GF; number of pins: 04; pin pitch: 5.00mm; Angled; threaded flange || order number: 1776715 12A || order number: 1923995 16A (HC)
-phoenix_contact connector MSTB_01x04_GF_5.00mm
-0
-4
-4
-AVR-KiCAD-Lib-Connectors
-1017511
+9
+9
+AVR-KiCAD-Lib-ICs
+20TSSOP_Ti_PWR
 
 
 0
 20
-10
-AVR-KiCAD-Lib-Connectors
-1843091
+20
+AVR-KiCAD-Lib-ICs
+74ACT16244DGGR
 
 
 0
-10
-10
-AVR-KiCAD-Lib-Connectors
-20021121-00010C4LF
+48
+48
+AVR-KiCAD-Lib-ICs
+74HC4052D
 
 
 0
-10
-10
-AVR-KiCAD-Lib-Connectors
-0395121002
+16
+16
+AVR-KiCAD-Lib-ICs
+381caBGA_LATTICE
 
 
 0
-2
-2
-AVR-KiCAD-Lib-Connectors
-0395121004
+381
+381
+AVR-KiCAD-Lib-ICs
+AMM-2742-T-R
 
 
 0
 4
 4
-AVR-KiCAD-Lib-Connectors
-0395121006
+AVR-KiCAD-Lib-ICs
+AT25SF081
 
 
 0
+9
+8
+AVR-KiCAD-Lib-ICs
+BQ24210
+
+
+0
+11
+11
+AVR-KiCAD-Lib-ICs
+BQ32000DR
+
+
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+DFN8_SHT35
+
+
+0
+12
+9
+AVR-KiCAD-Lib-ICs
+DFN3030-8
+
+
+0
+14
+9
+AVR-KiCAD-Lib-ICs
+DIP8
+
+
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+LD1117S50TR
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+4
+AVR-KiCAD-Lib-ICs
+LM1085ISX-5.0_NOPB
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+8
+4
+AVR-KiCAD-Lib-ICs
+LTC2941CDCB-1-TRMPBF
+
+
+0
+7
+7
+AVR-KiCAD-Lib-ICs
+LTC4150CMS-PBF
+
+
+0
+10
+10
+AVR-KiCAD-Lib-ICs
+MAX3073EESD&plus_
+
+
+0
+14
+14
+AVR-KiCAD-Lib-ICs
+MAX13450EAUD&plus_
+
+
+0
+15
+15
+AVR-KiCAD-Lib-ICs
+MAX14830ETM&plus_
+
+
+0
+49
+49
+AVR-KiCAD-Lib-ICs
+MCP23017T-E
+
+
+0
+29
+29
+AVR-KiCAD-Lib-ICs
+MT41K64M16TW_107_J_TR
+
+
+0
+78
+78
+AVR-KiCAD-Lib-ICs
+OPAx134_DIP8
+
+
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+OPT3001DNPR
+
+
+0
+7
+7
+AVR-KiCAD-Lib-ICs
+PCA9518DBQR
+
+
+0
+20
+20
+AVR-KiCAD-Lib-ICs
+PW0016A
+
+
+0
+16
+16
+AVR-KiCAD-Lib-ICs
+PYD1588
+
+
+0
+4
+4
+AVR-KiCAD-Lib-ICs
+QFN-20_EP_3.1x3.1_Pitch0.5mm
+
+
+0
+14
+11
+AVR-KiCAD-Lib-ICs
+QFN50P700X700X80-49N
+
+
+0
+49
+49
+AVR-KiCAD-Lib-ICs
+REF6225IDGKT
+
+
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+SDS-50J
+
+
+0
+7
 6
-6
-AVR-KiCAD-Lib-Connectors
-1054500101_USB_C
+AVR-KiCAD-Lib-ICs
+SN74AHCT125RGYR
+
+
+0
+19
+15
+AVR-KiCAD-Lib-ICs
+SN74HC244PWR
+
+
+0
+20
+20
+AVR-KiCAD-Lib-ICs
+SN74LVC541APWR
+
+
+0
+20
+20
+AVR-KiCAD-Lib-ICs
+SOIC-8-N
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+SOIC-8-N0.150
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+AVR-KiCAD-Lib-ICs
+SOIC-28_W7.5mm
 
 
 0
 28
-25
-AVR-KiCAD-Lib-Connectors
-1988660000
+28
+AVR-KiCAD-Lib-ICs
+SOT-23
+
+
+0
+3
+3
+AVR-KiCAD-Lib-ICs
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+AVR-KiCAD-Lib-ICs
+SOT-23-6_Handsoldering
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+AVR-KiCAD-Lib-ICs
+SOT-223-6
+module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf
+CMS SOT
+0
+6
+6
+AVR-KiCAD-Lib-ICs
+SOT-353_SC-70-5
+SOT-353, SC-70-5
+SOT-353 SC-70-5
+0
+5
+5
+AVR-KiCAD-Lib-ICs
+SOT_89
+SOT89-3_Housing
+SOT89-3_Housing
+0
+5
+3
+AVR-KiCAD-Lib-ICs
+ST1L05APU33R
+
+
+0
+16
+10
+AVR-KiCAD-Lib-ICs
+STM32F446RET6
+
+
+0
+64
+64
+AVR-KiCAD-Lib-ICs
+STM32H745XIH6
+
+
+0
+265
+265
+AVR-KiCAD-Lib-ICs
+STUSB1600QFN24
 
 
 0
 32
-8
-AVR-KiCAD-Lib-Connectors
-ACJS-MHDC
-
-
-0
-13
-13
-AVR-KiCAD-Lib-Connectors
-ACJS-MHDR
-
-
-0
-7
-7
-AVR-KiCAD-Lib-Connectors
-AMPHENOL_RJHSE-5381
-
-
-0
-14
-14
-AVR-KiCAD-Lib-Connectors
-B2B-PH-K-S(LF)(SN)
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-2
-2
-AVR-KiCAD-Lib-Connectors
-B2B-PH-SM4-TB(LF)(SN)
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-4
-2
-AVR-KiCAD-Lib-Connectors
-B3B-PH-K-S(LF)(SN)
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-3
-3
-AVR-KiCAD-Lib-Connectors
-B3B-PH-SM4-TB(LF)(SN)
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-5
-3
-AVR-KiCAD-Lib-Connectors
-B4B-PH-K-S(LF)(SN)
-http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-4
-4
-AVR-KiCAD-Lib-Connectors
-BarrelJack_Horizontal
-DC Barrel Jack
-Power Jack
-0
-3
-3
-AVR-KiCAD-Lib-Connectors
-CONN_BM04B-SRSS-TB(LF)(SN)
-
-
-0
-6
-5
-AVR-KiCAD-Lib-Connectors
-CUI_SJ1-3513
-
-
-0
-3
-3
-AVR-KiCAD-Lib-Connectors
-ESQ-102-34-L-D
-Through hole straight pin header, 2x02, 2.54mm pitch, double rows
-Through hole pin header THT 2x02 2.54mm double row
-0
-4
-4
-AVR-KiCAD-Lib-Connectors
-ESQ-120-34-T-D_2x20_Pitch2.54mm
-Through hole straight pin header, 2x20, 2.54mm pitch, double rows
-Through hole pin header THT 2x20 2.54mm double row
-0
-40
-40
-AVR-KiCAD-Lib-Connectors
-Female_Header_Straight_1x06_Pitch2.54mm
-Through hole straight pin header, 1x06, 2.54mm pitch, single row
-Through hole pin header THT 1x06 2.54mm single row
-0
-6
-6
-AVR-KiCAD-Lib-Connectors
-Female_Header_Straight_1x08_Pitch2.54mm
-Through hole straight pin header, 1x08, 2.54mm pitch, single row
-Through hole pin header THT 1x08 2.54mm single row
-0
-8
-8
-AVR-KiCAD-Lib-Connectors
-Female_Header_Straight_1x10_Pitch2.54mm
-Through hole straight pin header, 1x10, 2.54mm pitch, single row
-Through hole pin header THT 1x10 2.54mm single row
-0
-10
-10
-AVR-KiCAD-Lib-Connectors
-HRS_U.FL-R-SMT
-
-
-0
-3
-2
-AVR-KiCAD-Lib-Connectors
-MOLEX_503398-1892
-
-
-0
-14
-14
-AVR-KiCAD-Lib-Connectors
-MOLEX_1050170001
-
-
-0
-13
-13
-AVR-KiCAD-Lib-Connectors
-MOLEX_1050170001_PROTO
-
-
-0
-13
-13
-AVR-KiCAD-Lib-Connectors
-PPPC052LFBN-RC_2x05_Pitch2.54mm
-Through hole straight pin header, 2x05, 2.54mm pitch, double rows
-Through hole pin header THT 2x05 2.54mm double row
-0
-10
-10
-AVR-KiCAD-Lib-Connectors
-PULSE_JXD0-0001NL
-
-
-0
-16
-16
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBA-G_02x5.08mm_Angled
-Generic Phoenix Contact connector footprint for series: MSTBA-G; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)
-phoenix_contact connector MSTBA_01x02_G_5.08mm
-0
-2
-2
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBA-G_05x5.00mm_Angled
-Generic Phoenix Contact connector footprint for series: MSTBA-G; number of pins: 05; pin pitch: 5.00mm; Angled || order number: 1757501 12A || order number: 1923788 16A (HC)
-phoenix_contact connector MSTBA_01x05_G_5.00mm
-0
-5
-5
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBVA-G_02x5.08mm_Vertical
-Generic Phoenix Contact connector footprint for series: MSTBVA-G; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1755736 12A || order number: 1924305 16A (HC)
-phoenix_contact connector MSTBVA_01x02_G_5.08mm
-0
-2
-2
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBVA-G_05x5.00mm_Vertical
-Generic Phoenix Contact connector footprint for series: MSTBVA-G; number of pins: 05; pin pitch: 5.00mm; Vertical || order number: 1755545 12A || order number: 1924224 16A (HC)
-phoenix_contact connector MSTBVA_01x05_G_5.00mm
-0
-5
-5
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBVA-G_08x5.00mm_Vertical
-Generic Phoenix Contact connector footprint for series: MSTBVA-G; number of pins: 08; pin pitch: 5.00mm; Vertical || order number: 1755574 12A || order number: 1924253 16A (HC)
-phoenix_contact connector MSTBVA_01x08_G_5.00mm
-0
-8
-8
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBVA-G_08x5.08mm_Vertical
-Generic Phoenix Contact connector footprint for series: MSTBVA-G; number of pins: 08; pin pitch: 5.08mm; Vertical || order number: 1755794 12A || order number: 1924363 16A (HC)
-phoenix_contact connector MSTBVA_01x08_G_5.08mm
-0
-8
-8
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBVA-G_10x5.00mm_Vertical
-Generic Phoenix Contact connector footprint for series: MSTBVA-G; number of pins: 10; pin pitch: 5.00mm; Vertical || order number: 1755503 12A || order number: 1924279 16A (HC)
-phoenix_contact connector MSTBVA_01x10_G_5.00mm
-0
-10
-10
-AVR-KiCAD-Lib-Connectors
-PhoenixContact_MSTBVA-G_10x5.08mm_Vertical
-Generic Phoenix Contact connector footprint for series: MSTBVA-G; number of pins: 10; pin pitch: 5.08mm; Vertical || order number: 1755817 12A || order number: 1924389 16A (HC)
-phoenix_contact connector MSTBVA_01x10_G_5.08mm
-0
-10
-10
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Angled_1x02_Pitch2.54mm
-Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x02 2.54mm single row
-0
-2
-2
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Angled_1x03_Pitch2.54mm
-Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x03 2.54mm single row
-0
-3
-3
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Straight_1x02_Pitch2.54mm
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Straight_1x03_Pitch1.27mm
-Through hole straight pin header, 1x03, 1.27mm pitch, single row
-Through hole pin header THT 1x03 1.27mm single row
-0
-3
-3
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Straight_1x04_Pitch2.54mm
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Straight_1x12_Pitch2.54mm
-Through hole straight pin header, 1x12, 2.54mm pitch, single row
-Through hole pin header THT 1x12 2.54mm single row
-0
-12
-12
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Straight_2x04_Pitch2.54mm
-Through hole straight pin header, 2x04, 2.54mm pitch, double rows
-Through hole pin header THT 2x04 2.54mm double row
-0
-8
-8
-AVR-KiCAD-Lib-Connectors
-Pin_Header_Straight_2x05_Pitch2.54mm
-Through hole straight pin header, 2x05, 2.54mm pitch, double rows
-Through hole pin header THT 2x05 2.54mm double row
-0
-10
-10
-AVR-KiCAD-Lib-Connectors
-Shrouded_Pin_Header_Straight_1x03_Pitch2.54mm
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-AVR-KiCAD-Lib-Connectors
-Shrouded_Pin_Header_Straight_1x04_Pitch2.54mm
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-AVR-KiCAD-Lib-Connectors
-TC2050-CLIP
-
-
-0
-10
-10
-AVR-KiCAD-Lib-Connectors
-TE_Connectivity_796644-5
-Generic Phoenix Contact connector footprint for series: MSTBA-G; number of pins: 05; pin pitch: 5.00mm; Angled || order number: 1757501 12A || order number: 1923788 16A (HC)
-phoenix_contact connector MSTBA_01x05_G_5.00mm
-0
-5
-5
-AVR-KiCAD-Lib-Connectors
-TSW-108-07-G-T
+25
+AVR-KiCAD-Lib-ICs
+TCA6416APWR
 
 
 0
 24
 24
-AVR-KiCAD-Lib-Connectors
-USB_Mini-B
-USB Mini-B 5-pin SMD connector
-USB USB_B USB_Mini connector
+AVR-KiCAD-Lib-ICs
+TCA6416ARTWR
+
+
+0
+34
+26
+AVR-KiCAD-Lib-ICs
+TCA6424ARGJR
+
+
+0
+33
+33
+AVR-KiCAD-Lib-ICs
+TCA9548APWR
+
+
+0
+24
+24
+AVR-KiCAD-Lib-ICs
+TLV1117-33IDRJR
+
+
 0
 9
-6
+9
+AVR-KiCAD-Lib-ICs
+TLV70220PDBVR
+
+
+0
+5
+5
+AVR-KiCAD-Lib-ICs
+TPS54060DRCR
+
+
+0
+15
+11
+AVR-KiCAD-Lib-ICs
+TXB0108PWR
+
+
+0
+20
+20
+AVR-KiCAD-Lib-ICs
+VSSOP10_Ti
+
+
+0
+10
+10
+AVR-KiCAD-Lib-ICs
+WM8994ECS_R
+
+
+0
+72
+72
