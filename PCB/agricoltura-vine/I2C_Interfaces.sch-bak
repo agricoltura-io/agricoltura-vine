@@ -287,10 +287,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 4400 8100 5650
 Wire Wire Line
-	8100 5650 9100 5650
-Wire Wire Line
-	10600 5750 9300 5750
-Wire Wire Line
 	8000 5750 8000 4500
 Wire Wire Line
 	8000 4500 4200 4500
@@ -1577,44 +1573,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 2200 4200 4500
 Connection ~ 4200 4500
-Wire Wire Line
-	4200 4500 4050 4500
-$Comp
-L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D9
-U 1 1 5F2FDE20
-P 3950 4900
-F 0 "D9" V 3750 5150 50  0000 L CNN
-F 1 "PESD3V3L2BT,215" H 4000 5100 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Diodes:SOT-23" H 3850 4900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 3850 5000 50  0001 C CNN
-F 4 "0.45000" H 4050 5150 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.13260" H 4150 5250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 4250 5350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 4350 5450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 4450 5550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Nexperia USA Inc." H 4550 5650 50  0001 C CNN "MFR"
-F 10 "PESD3V3L2BT,215" H 4650 5750 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 4750 5850 50  0001 C CNN "Vendor"
-F 12 "1727-3826-1-ND" H 4850 5950 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 4950 6050 50  0001 C CNN "Designer"
-F 14 "1.1mm" H 5050 6150 50  0001 C CNN "Height"
-F 15 "6/15/2020" H 6150 7250 50  0001 C CNN "Date Created"
-F 16 "6/15/2020" H 5150 6250 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 5250 6350 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 5350 6450 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 5450 6550 50  0001 C CNN "Mounting"
-F 20 "3" H 5550 6650 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 5650 6750 50  0001 C CNN "Status"
-F 22 "*" H 5750 6850 50  0001 C CNN "Tolerance"
-F 23 "TVS" H 5850 6950 50  0001 C CNN "Type"
-F 24 "*" H 5950 7050 50  0001 C CNN "Voltage"
-F 25 " SOT-23-3" H 6050 7200 50  0001 C CNN "Package"
-F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 6350 7500 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 4200 4150 50  0000 L CNN "_Value_"
-F 28 "*" H 6350 7500 50  0001 C CNN "Management_ID"
-	1    3950 4900
-	0    1    1    0   
-$EndComp
 $Comp
 L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D10
 U 1 1 5F301A3E
@@ -1646,20 +1604,13 @@ F 23 "TVS" H 6550 6950 50  0001 C CNN "Type"
 F 24 "*" H 6650 7050 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 6750 7200 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 7050 7500 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 5050 4200 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" V 5050 4950 50  0000 L CNN "_Value_"
 F 28 "*" H 7050 7500 50  0001 C CNN "Management_ID"
 	1    4650 4900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	4550 2300 4550 4650
-Wire Wire Line
-	3850 4400 3850 4650
-Wire Wire Line
-	4050 4650 4050 4500
-Connection ~ 4050 4500
-Wire Wire Line
-	4050 4500 3250 4500
 Wire Wire Line
 	4750 4650 4750 2400
 Connection ~ 4750 2400
@@ -1696,10 +1647,10 @@ F 23 "TVS" H 7200 6950 50  0001 C CNN "Type"
 F 24 "*" H 7300 7050 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 7400 7200 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 7700 7500 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 5700 4250 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" V 5700 4800 50  0000 L CNN "_Value_"
 F 28 "*" H 7700 7500 50  0001 C CNN "Management_ID"
 	1    5300 4900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5200 2600 5200 4650
@@ -1745,10 +1696,10 @@ F 23 "TVS" H 7850 6950 50  0001 C CNN "Type"
 F 24 "*" H 7950 7050 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 8050 7200 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 8350 7500 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 6350 4400 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" V 6350 4650 50  0000 L CNN "_Value_"
 F 28 "*" H 8350 7500 50  0001 C CNN "Management_ID"
 	1    5950 4900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D13
@@ -1784,7 +1735,7 @@ F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 9000 7500 
 F 27 "PESD3V3L2BT,215" V 7000 4600 50  0000 L CNN "_Value_"
 F 28 "*" H 9000 7500 50  0001 C CNN "Management_ID"
 	1    6600 4900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D14
@@ -1817,10 +1768,10 @@ F 23 "TVS" H 9150 6950 50  0001 C CNN "Type"
 F 24 "*" H 9250 7050 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 9350 7200 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 9650 7500 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" H 7000 5100 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" H 6900 4650 50  0000 L CNN "_Value_"
 F 28 "*" H 9650 7500 50  0001 C CNN "Management_ID"
 	1    7250 4900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D15
@@ -1853,10 +1804,10 @@ F 23 "TVS" H 9450 7550 50  0001 C CNN "Type"
 F 24 "*" H 9550 7650 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 9650 7800 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 9950 8100 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" H 7300 5700 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" H 7150 5300 50  0000 L CNN "_Value_"
 F 28 "*" H 9950 8100 50  0001 C CNN "Management_ID"
 	1    7550 5500
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7800 3800 7800 5400
@@ -1898,10 +1849,10 @@ F 23 "TVS" H 10300 8150 50  0001 C CNN "Type"
 F 24 "*" H 10400 8250 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 10500 8400 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 10800 8700 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" H 8150 6300 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" H 8100 5900 50  0000 L CNN "_Value_"
 F 28 "*" H 10800 8700 50  0001 C CNN "Management_ID"
 	1    8400 6100
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	8300 5850 8300 4950
@@ -1913,59 +1864,10 @@ Wire Wire Line
 Connection ~ 8500 5050
 Wire Wire Line
 	8500 5050 8850 5050
-$Comp
-L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D17
-U 1 1 5F396FBB
-P 9200 6100
-F 0 "D17" V 9000 6350 50  0000 L CNN
-F 1 "PESD3V3L2BT,215" H 9250 6300 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Diodes:SOT-23" H 9100 6100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 9100 6200 50  0001 C CNN
-F 4 "0.45000" H 9300 6350 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.13260" H 9400 6450 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 9500 6550 50  0001 C CNN "Cost QTY: 2500"
-F 7 "*" H 9600 6650 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 9700 6750 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Nexperia USA Inc." H 9800 6850 50  0001 C CNN "MFR"
-F 10 "PESD3V3L2BT,215" H 9900 6950 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 10000 7050 50  0001 C CNN "Vendor"
-F 12 "1727-3826-1-ND" H 10100 7150 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 10200 7250 50  0001 C CNN "Designer"
-F 14 "1.1mm" H 10300 7350 50  0001 C CNN "Height"
-F 15 "6/15/2020" H 11400 8450 50  0001 C CNN "Date Created"
-F 16 "6/15/2020" H 10400 7450 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 10500 7550 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 10600 7650 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 10700 7750 50  0001 C CNN "Mounting"
-F 20 "3" H 10800 7850 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 10900 7950 50  0001 C CNN "Status"
-F 22 "*" H 11000 8050 50  0001 C CNN "Tolerance"
-F 23 "TVS" H 11100 8150 50  0001 C CNN "Type"
-F 24 "*" H 11200 8250 50  0001 C CNN "Voltage"
-F 25 " SOT-23-3" H 11300 8400 50  0001 C CNN "Package"
-F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 11600 8700 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" H 8950 6300 50  0000 L CNN "_Value_"
-F 28 "*" H 11600 8700 50  0001 C CNN "Management_ID"
-	1    9200 6100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9100 5850 9100 5650
-Connection ~ 9100 5650
-Wire Wire Line
-	9100 5650 10600 5650
-Wire Wire Line
-	9300 5850 9300 5750
-Connection ~ 9300 5750
-Wire Wire Line
-	9300 5750 8000 5750
-Wire Wire Line
-	9200 6400 8400 6400
 Wire Wire Line
 	8400 6400 7250 6400
 Wire Wire Line
 	7250 6400 7250 5500
-Connection ~ 8400 6400
 Connection ~ 7250 5500
 Wire Wire Line
 	7250 5500 7250 5200
@@ -1974,12 +1876,7 @@ Wire Wire Line
 Connection ~ 7250 5200
 Wire Wire Line
 	7250 5200 6600 5200
-Connection ~ 3950 5200
-Wire Wire Line
-	3950 5200 3050 5200
 Connection ~ 4650 5200
-Wire Wire Line
-	4650 5200 3950 5200
 Connection ~ 5300 5200
 Wire Wire Line
 	5300 5200 4650 5200
@@ -2017,4 +1914,58 @@ Wire Wire Line
 Connection ~ 7350 3600
 Wire Wire Line
 	7350 3600 3250 3600
+Wire Wire Line
+	4050 4500 3250 4500
+Wire Wire Line
+	4200 4500 4050 4500
+Connection ~ 4050 4500
+Wire Wire Line
+	4050 4650 4050 4500
+Wire Wire Line
+	3850 4400 3850 4650
+Connection ~ 3950 5200
+Wire Wire Line
+	3950 5200 3050 5200
+Wire Wire Line
+	4650 5200 3950 5200
+$Comp
+L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D9
+U 1 1 5F2FDE20
+P 3950 4900
+F 0 "D9" V 3750 5150 50  0000 L CNN
+F 1 "PESD3V3L2BT,215" H 4000 5100 50  0001 C CNN
+F 2 "AVR-KiCAD-Lib-Diodes:SOT-23" H 3850 4900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 3850 5000 50  0001 C CNN
+F 4 "0.45000" H 4050 5150 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.13260" H 4150 5250 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 4250 5350 50  0001 C CNN "Cost QTY: 2500"
+F 7 "*" H 4350 5450 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 4450 5550 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Nexperia USA Inc." H 4550 5650 50  0001 C CNN "MFR"
+F 10 "PESD3V3L2BT,215" H 4650 5750 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 4750 5850 50  0001 C CNN "Vendor"
+F 12 "1727-3826-1-ND" H 4850 5950 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 4950 6050 50  0001 C CNN "Designer"
+F 14 "1.1mm" H 5050 6150 50  0001 C CNN "Height"
+F 15 "6/15/2020" H 6150 7250 50  0001 C CNN "Date Created"
+F 16 "6/15/2020" H 5150 6250 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 5250 6350 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 5350 6450 50  0001 C CNN "RoHS Levels"
+F 19 "SMT" H 5450 6550 50  0001 C CNN "Mounting"
+F 20 "3" H 5550 6650 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 5650 6750 50  0001 C CNN "Status"
+F 22 "*" H 5750 6850 50  0001 C CNN "Tolerance"
+F 23 "TVS" H 5850 6950 50  0001 C CNN "Type"
+F 24 "*" H 5950 7050 50  0001 C CNN "Voltage"
+F 25 " SOT-23-3" H 6050 7200 50  0001 C CNN "Package"
+F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 6350 7500 50  0001 C CNN "Description"
+F 27 "PESD3V3L2BT,215" V 4000 5050 50  0000 L CNN "_Value_"
+F 28 "*" H 6350 7500 50  0001 C CNN "Management_ID"
+	1    3950 4900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8100 5650 10600 5650
+Wire Wire Line
+	8000 5750 10600 5750
 $EndSCHEMATC
