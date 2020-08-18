@@ -13,61 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L AVR-KiCAD-Lib-Diodes:ABS210-13 D2
-U 1 1 5EEC167B
-P 2400 3250
-F 0 "D2" H 3144 3046 50  0000 L CNN
-F 1 "ABS210-13" H 2650 4100 50  0001 C CNN
-F 2 "AVR-KiCAD-Lib-Diodes:ABS210-13" V 2800 3150 50  0001 C CNN
-F 3 "https://www.comchiptech.com/admin/files/product/20190215095655.pdf" H 2400 3300 50  0001 C CNN
-F 4 "0.45000" H 2700 4150 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.10988" H 2800 4250 50  0001 C CNN "Cost QTY: 1000"
-F 6 "0.10054" H 2900 4350 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.09615" H 3000 4450 50  0001 C CNN "Cost QTY: 5000"
-F 8 "0.08516" H 3100 4550 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Diodes Incorporated" H 3200 4650 50  0001 C CNN "MFR"
-F 10 "ABS210-13" H 3300 4750 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 3400 4850 50  0001 C CNN "Vendor"
-F 12 "ABS210-13DICT-ND" H 3500 4950 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 3600 5050 50  0001 C CNN "Designer"
-F 14 "2.6mm" H 3700 5150 50  0001 C CNN "Height"
-F 15 "3/23/2020" H 4800 6250 50  0001 C CNN "Date Created"
-F 16 "4/12/2020" H 3800 5250 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 3900 5350 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 4000 5450 50  0001 C CNN "RoHS Levels"
-F 19 "SMT" H 4100 5550 50  0001 C CNN "Mounting"
-F 20 "4" H 4200 5650 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 4300 5750 50  0001 C CNN "Status"
-F 22 "*" H 4400 5850 50  0001 C CNN "Tolerance"
-F 23 "Rectifier Diode" H 4500 5950 50  0001 C CNN "Type"
-F 24 "1KV 2A" H 4600 6050 50  0001 C CNN "Voltage"
-F 25 "4-SOPA" H 4700 6200 50  0001 C CNN "Package"
-F 26 "Bridge Rectifier Single Phase Standard 1kV Surface Mount 4-SOPA" H 5000 6500 50  0001 C CNN "Description"
-F 27 "ABS210-13" H 3144 2955 50  0000 L CNN "_Value_"
-F 28 "*" H 5000 6500 50  0001 C CNN "Management_ID"
-	1    2400 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 3600 2200 3600
-Wire Wire Line
-	2200 3600 2200 4250
-Wire Wire Line
-	2200 4250 3100 4250
-Wire Wire Line
-	3100 4250 3100 3500
-$Comp
-L power:GND #PWR028
-U 1 1 5EEC4A33
-P 2650 3950
-F 0 "#PWR028" H 2650 3700 50  0001 C CNN
-F 1 "GND" H 2655 3777 50  0000 C CNN
-F 2 "" H 2650 3950 50  0001 C CNN
-F 3 "" H 2650 3950 50  0001 C CNN
-	1    2650 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 3050 3700 3050
 $Comp
@@ -118,7 +63,7 @@ F 3 "" H 3700 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 3950 3700 3750
+	3700 3950 3700 3850
 $Comp
 L power:+24V #PWR031
 U 1 1 5EECA5B2
@@ -945,12 +890,6 @@ Wire Wire Line
 Connection ~ 2550 6200
 Wire Wire Line
 	2550 6200 2550 6500
-Wire Wire Line
-	1400 3500 2200 3500
-Text Label 1700 3500 0    50   ~ 0
-24VAC+
-Text Label 1700 3600 0    50   ~ 0
-24VAC-
 $Comp
 L power:Earth #PWR0114
 U 1 1 5F11B4D8
@@ -1048,37 +987,46 @@ Connection ~ 9700 3100
 $Comp
 L AVR-KiCAD-Lib-Connectors:0395121002 T16
 U 1 1 5F06CA83
-P 1200 3500
-F 0 "T16" H 1192 3765 50  0000 C CNN
-F 1 "0395121002" H 1192 3674 50  0000 C CNN
-F 2 "AVR-KiCAD-Lib-Connectors:0395121002" H 250 4550 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/395121002_sd.pdf" H 1100 3600 50  0001 C CNN
-F 4 "0.90000" H 1300 3750 50  0001 C CNN "Cost QTY: 1"
-F 5 "0.30600" H 1400 3850 50  0001 C CNN "Cost QTY: 1000"
-F 6 "*" H 1500 3950 50  0001 C CNN "Cost QTY: 2500"
-F 7 "0.23940" H 1600 4050 50  0001 C CNN "Cost QTY: 5000"
-F 8 "*" H 1700 4150 50  0001 C CNN "Cost QTY: 10000"
-F 9 "Molex" H 1800 4250 50  0001 C CNN "MFR"
-F 10 "0395121002" H 1900 4350 50  0001 C CNN "MFR#"
-F 11 "Digikey" H 2000 4450 50  0001 C CNN "Vendor"
-F 12 "WM23198-ND" H 2100 4550 50  0001 C CNN "Vendor #"
-F 13 "AVR" H 2200 4650 50  0001 C CNN "Designer"
-F 14 "6.86mm" H 2300 4750 50  0001 C CNN "Height"
-F 15 "6/23/2020" H 3400 5850 50  0001 C CNN "Date Created"
-F 16 "6/23/2020" H 2400 4850 50  0001 C CNN "Date Modified"
-F 17 "Yes" H 2500 4950 50  0001 C CNN "Lead-Free ?"
-F 18 "1" H 2600 5050 50  0001 C CNN "RoHS Levels"
-F 19 "ThroughHole" H 2700 5150 50  0001 C CNN "Mounting"
-F 20 "2" H 2800 5250 50  0001 C CNN "Pin Count #"
-F 21 "Active" H 2900 5350 50  0001 C CNN "Status"
-F 22 "*" H 3000 5450 50  0001 C CNN "Tolerance"
-F 23 "Connector" H 3100 5550 50  0001 C CNN "Type"
-F 24 "300V" H 3200 5650 50  0001 C CNN "Voltage"
-F 25 "*" H 3300 5800 50  0001 C CNN "Package"
-F 26 "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150\" (3.81mm) 90°, Right Angle  Through Hole" H 3700 6200 50  0001 C CNN "Description"
-F 27 "0395121002" H 3500 6000 50  0001 C CNN "_Value_"
-F 28 "*" H 3600 6100 50  0001 C CNN "Management_ID"
-	1    1200 3500
+P 2450 3050
+F 0 "T16" H 2442 3315 50  0000 C CNN
+F 1 "0395121002" H 2442 3224 50  0000 C CNN
+F 2 "AVR-KiCAD-Lib-Connectors:0395121002" H 1500 4100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/395121002_sd.pdf" H 2350 3150 50  0001 C CNN
+F 4 "0.90000" H 2550 3300 50  0001 C CNN "Cost QTY: 1"
+F 5 "0.30600" H 2650 3400 50  0001 C CNN "Cost QTY: 1000"
+F 6 "*" H 2750 3500 50  0001 C CNN "Cost QTY: 2500"
+F 7 "0.23940" H 2850 3600 50  0001 C CNN "Cost QTY: 5000"
+F 8 "*" H 2950 3700 50  0001 C CNN "Cost QTY: 10000"
+F 9 "Molex" H 3050 3800 50  0001 C CNN "MFR"
+F 10 "0395121002" H 3150 3900 50  0001 C CNN "MFR#"
+F 11 "Digikey" H 3250 4000 50  0001 C CNN "Vendor"
+F 12 "WM23198-ND" H 3350 4100 50  0001 C CNN "Vendor #"
+F 13 "AVR" H 3450 4200 50  0001 C CNN "Designer"
+F 14 "6.86mm" H 3550 4300 50  0001 C CNN "Height"
+F 15 "6/23/2020" H 4650 5400 50  0001 C CNN "Date Created"
+F 16 "6/23/2020" H 3650 4400 50  0001 C CNN "Date Modified"
+F 17 "Yes" H 3750 4500 50  0001 C CNN "Lead-Free ?"
+F 18 "1" H 3850 4600 50  0001 C CNN "RoHS Levels"
+F 19 "ThroughHole" H 3950 4700 50  0001 C CNN "Mounting"
+F 20 "2" H 4050 4800 50  0001 C CNN "Pin Count #"
+F 21 "Active" H 4150 4900 50  0001 C CNN "Status"
+F 22 "*" H 4250 5000 50  0001 C CNN "Tolerance"
+F 23 "Connector" H 4350 5100 50  0001 C CNN "Type"
+F 24 "300V" H 4450 5200 50  0001 C CNN "Voltage"
+F 25 "*" H 4550 5350 50  0001 C CNN "Package"
+F 26 "2 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.150\" (3.81mm) 90°, Right Angle  Through Hole" H 4950 5750 50  0001 C CNN "Description"
+F 27 "0395121002" H 4750 5550 50  0001 C CNN "_Value_"
+F 28 "*" H 4850 5650 50  0001 C CNN "Management_ID"
+	1    2450 3050
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2650 3150 3000 3150
+Wire Wire Line
+	3000 3150 3000 3850
+Wire Wire Line
+	3000 3850 3700 3850
+Connection ~ 3700 3850
+Wire Wire Line
+	3700 3850 3700 3750
 $EndSCHEMATC

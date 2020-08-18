@@ -559,8 +559,8 @@ L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D?
 U 1 1 5F44F9D9
 P 7300 4850
 AR Path="/5EE827B2/5F44F9D9" Ref="D?"  Part="1" 
-AR Path="/5EE82702/5F44F9D9" Ref="D?"  Part="1" 
-F 0 "D?" V 7100 5100 50  0000 L CNN
+AR Path="/5EE82702/5F44F9D9" Ref="D17"  Part="1" 
+F 0 "D17" V 7100 5100 50  0000 L CNN
 F 1 "PESD3V3L2BT,215" H 7350 5050 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Diodes:SOT-23" H 7200 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 7200 4950 50  0001 C CNN
@@ -587,18 +587,18 @@ F 23 "TVS" H 9200 6900 50  0001 C CNN "Type"
 F 24 "*" H 9300 7000 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 9400 7150 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 9700 7450 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 7450 4950 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" V 7450 4100 50  0000 L CNN "_Value_"
 F 28 "*" H 9700 7450 50  0001 C CNN "Management_ID"
 	1    7300 4850
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D?
 U 1 1 5F45133E
 P 8200 4850
 AR Path="/5EE827B2/5F45133E" Ref="D?"  Part="1" 
-AR Path="/5EE82702/5F45133E" Ref="D?"  Part="1" 
-F 0 "D?" V 8000 5100 50  0000 L CNN
+AR Path="/5EE82702/5F45133E" Ref="D18"  Part="1" 
+F 0 "D18" V 8000 5100 50  0000 L CNN
 F 1 "PESD3V3L2BT,215" H 8250 5050 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Diodes:SOT-23" H 8100 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8100 4950 50  0001 C CNN
@@ -625,18 +625,18 @@ F 23 "TVS" H 10100 6900 50  0001 C CNN "Type"
 F 24 "*" H 10200 7000 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 10300 7150 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 10600 7450 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 8350 4950 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" V 8350 4100 50  0000 L CNN "_Value_"
 F 28 "*" H 10600 7450 50  0001 C CNN "Management_ID"
 	1    8200 4850
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D?
 U 1 1 5F45308D
 P 9050 4850
 AR Path="/5EE827B2/5F45308D" Ref="D?"  Part="1" 
-AR Path="/5EE82702/5F45308D" Ref="D?"  Part="1" 
-F 0 "D?" V 8850 5100 50  0000 L CNN
+AR Path="/5EE82702/5F45308D" Ref="D19"  Part="1" 
+F 0 "D19" V 8850 5100 50  0000 L CNN
 F 1 "PESD3V3L2BT,215" H 9100 5050 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Diodes:SOT-23" H 8950 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 8950 4950 50  0001 C CNN
@@ -663,18 +663,18 @@ F 23 "TVS" H 10950 6900 50  0001 C CNN "Type"
 F 24 "*" H 11050 7000 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 11150 7150 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 11450 7450 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 9200 4900 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" V 9200 4100 50  0000 L CNN "_Value_"
 F 28 "*" H 11450 7450 50  0001 C CNN "Management_ID"
 	1    9050 4850
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L AVR-KiCAD-Lib-Diodes:PESD3V3L2BT,215 D?
 U 1 1 5F454162
 P 9950 4850
 AR Path="/5EE827B2/5F454162" Ref="D?"  Part="1" 
-AR Path="/5EE82702/5F454162" Ref="D?"  Part="1" 
-F 0 "D?" V 9750 5100 50  0000 L CNN
+AR Path="/5EE82702/5F454162" Ref="D20"  Part="1" 
+F 0 "D20" V 9750 5100 50  0000 L CNN
 F 1 "PESD3V3L2BT,215" H 10000 5050 50  0001 C CNN
 F 2 "AVR-KiCAD-Lib-Diodes:SOT-23" H 9850 4850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_SER.pdf" H 9850 4950 50  0001 C CNN
@@ -701,29 +701,24 @@ F 23 "TVS" H 11850 6900 50  0001 C CNN "Type"
 F 24 "*" H 11950 7000 50  0001 C CNN "Voltage"
 F 25 " SOT-23-3" H 12050 7150 50  0001 C CNN "Package"
 F 26 "26V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB" H 12350 7450 50  0001 C CNN "Description"
-F 27 "PESD3V3L2BT,215" V 10100 4950 50  0000 L CNN "_Value_"
+F 27 "PESD3V3L2BT,215" V 10150 4050 50  0000 L CNN "_Value_"
 F 28 "*" H 12350 7450 50  0001 C CNN "Management_ID"
 	1    9950 4850
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7300 5150 8200 5150
 Connection ~ 8200 5150
 Wire Wire Line
 	8200 5150 9050 5150
 Connection ~ 9050 5150
 Wire Wire Line
 	9050 5150 9950 5150
-Wire Wire Line
-	7300 5150 5850 5150
-Connection ~ 7300 5150
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F461500
 P 5850 5150
 AR Path="/5EE82896/5F461500" Ref="#PWR?"  Part="1" 
-AR Path="/5EE82702/5F461500" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5850 5000 50  0001 C CNN
+AR Path="/5EE82702/5F461500" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 5850 5000 50  0001 C CNN
 F 1 "+3V3" H 5865 5323 50  0000 C CNN
 F 2 "" H 5850 5150 50  0001 C CNN
 F 3 "" H 5850 5150 50  0001 C CNN
@@ -770,4 +765,9 @@ Wire Wire Line
 Connection ~ 10050 2300
 Wire Wire Line
 	10050 2300 10600 2300
+Wire Wire Line
+	5850 5150 7300 5150
+Connection ~ 7300 5150
+Wire Wire Line
+	7300 5150 8200 5150
 $EndSCHEMATC
